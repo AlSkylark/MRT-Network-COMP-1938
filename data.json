@@ -1,0 +1,2825 @@
+{
+  "lines": {
+    "1": {
+      "id": 1,
+      "code": "TE",
+      "name": "Thomson-East Coast Line",
+      "colour": "#8c5d27"
+    },
+    "2": {
+      "id": 2,
+      "code": "NS",
+      "name": "North-South Line",
+      "colour": "#c13e31"
+    },
+    "3": {
+      "id": 3,
+      "code": "EW",
+      "name": "East-West Line",
+      "colour": "#4f924d"
+    },
+    "4": {
+      "id": 4,
+      "code": "DT",
+      "name": "Downtown Line",
+      "colour": "#3653b1"
+    },
+    "5": {
+      "id": 5,
+      "code": "CC",
+      "name": "Circle Line",
+      "colour": "#e2a33a"
+    },
+    "6": {
+      "id": 6,
+      "code": "NE",
+      "name": "North East Line",
+      "colour": "#861ca4"
+    },
+    "7": {
+      "id": 7,
+      "code": "CG",
+      "name": "Changi Airport Line",
+      "colour": "#4f924d"
+    },
+    "8": {
+      "id": 8,
+      "code": "STE",
+      "name": "Sentosa Express",
+      "colour": "#2c2924"
+    }
+  },
+  "stations": {
+    "1": {
+      "id": 1,
+      "station_name": "Bukit Panjang",
+      "x": 0.249463001,
+      "y": 0.312415333,
+      "lon": 103.759597844,
+      "lat": 1.380745117,
+      "connections": [
+        {
+          "next_station": 27,
+          "line_id": 4,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        4
+      ]
+    },
+    "2": {
+      "id": 2,
+      "station_name": "Bras Basah",
+      "x": 0.615861439,
+      "y": 0.722700823,
+      "lon": 103.850474276,
+      "lat": 1.296046213,
+      "connections": [
+        {
+          "next_station": 3,
+          "line_id": 5,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        5
+      ]
+    },
+    "3": {
+      "id": 3,
+      "station_name": "Esplanade",
+      "x": 0.671118744,
+      "y": 0.782952539,
+      "lon": 103.855567841,
+      "lat": 1.293128814,
+      "connections": [
+        {
+          "next_station": 20,
+          "line_id": 5,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        5
+      ]
+    },
+    "4": {
+      "id": 4,
+      "station_name": "Nicoll Highway",
+      "x": 0.770581893,
+      "y": 0.761912257,
+      "lon": 103.863505955,
+      "lat": 1.30016969,
+      "connections": [
+        {
+          "next_station": 5,
+          "line_id": 5,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        5
+      ]
+    },
+    "5": {
+      "id": 5,
+      "station_name": "Stadium",
+      "x": 0.785883916,
+      "y": 0.719831694,
+      "lon": 103.876226234,
+      "lat": 1.303370226,
+      "connections": [
+        {
+          "next_station": 6,
+          "line_id": 5,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        5
+      ]
+    },
+    "6": {
+      "id": 6,
+      "station_name": "Mountbatten",
+      "x": 0.79438504,
+      "y": 0.675838378,
+      "lon": 103.883248293,
+      "lat": 1.306045926,
+      "connections": [
+        {
+          "next_station": 7,
+          "line_id": 5,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        5
+      ]
+    },
+    "7": {
+      "id": 7,
+      "station_name": "Dakota",
+      "x": 0.796085265,
+      "y": 0.634714192,
+      "lon": 103.889307215,
+      "lat": 1.308814188,
+      "connections": [
+        {
+          "next_station": 23,
+          "line_id": 5,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        5
+      ]
+    },
+    "8": {
+      "id": 8,
+      "station_name": "Tai Seng",
+      "x": 0.746778746,
+      "y": 0.471173821,
+      "lon": 103.888214068,
+      "lat": 1.334620877,
+      "connections": [
+        {
+          "next_station": 9,
+          "line_id": 5,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        5
+      ]
+    },
+    "9": {
+      "id": 9,
+      "station_name": "Bartley",
+      "x": 0.713624363,
+      "y": 0.43387514,
+      "lon": 103.878908694,
+      "lat": 1.343501062,
+      "connections": [
+        {
+          "next_station": 87,
+          "line_id": 5,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        5
+      ]
+    },
+    "10": {
+      "id": 10,
+      "station_name": "Lorong Chuan",
+      "x": 0.603959866,
+      "y": 0.36692879,
+      "lon": 103.8629183,
+      "lat": 1.351738538,
+      "connections": [
+        {
+          "next_station": 111,
+          "line_id": 5,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        5
+      ]
+    },
+    "11": {
+      "id": 11,
+      "station_name": "Marymount",
+      "x": 0.468791996,
+      "y": 0.375536178,
+      "lon": 103.840058918,
+      "lat": 1.347866072,
+      "connections": [
+        {
+          "next_station": 145,
+          "line_id": 5,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        5
+      ]
+    },
+    "12": {
+      "id": 12,
+      "station_name": "Farrer Road",
+      "x": 0.321722554,
+      "y": 0.531425537,
+      "lon": 103.807965231,
+      "lat": 1.317493726,
+      "connections": [
+        {
+          "next_station": 13,
+          "line_id": 5,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        5
+      ]
+    },
+    "13": {
+      "id": 13,
+      "station_name": "Holland Village",
+      "x": 0.308120756,
+      "y": 0.579244358,
+      "lon": 103.79575377,
+      "lat": 1.310711201,
+      "connections": [
+        {
+          "next_station": 24,
+          "line_id": 5,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        5
+      ]
+    },
+    "14": {
+      "id": 14,
+      "station_name": "one-north",
+      "x": 0.303020081,
+      "y": 0.677751131,
+      "lon": 103.787784811,
+      "lat": 1.300074703,
+      "connections": [
+        {
+          "next_station": 15,
+          "line_id": 5,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        5
+      ]
+    },
+    "15": {
+      "id": 15,
+      "station_name": "Kent Ridge",
+      "x": 0.31322143,
+      "y": 0.721744447,
+      "lon": 103.784490452,
+      "lat": 1.293984785,
+      "connections": [
+        {
+          "next_station": 16,
+          "line_id": 5,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        5
+      ]
+    },
+    "16": {
+      "id": 16,
+      "station_name": "Haw Par Villa",
+      "x": 0.326823228,
+      "y": 0.762868634,
+      "lon": 103.782006397,
+      "lat": 1.283055274,
+      "connections": [
+        {
+          "next_station": 17,
+          "line_id": 5,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        5
+      ]
+    },
+    "17": {
+      "id": 17,
+      "station_name": "Pasir Panjang",
+      "x": 0.342975363,
+      "y": 0.79347268,
+      "lon": 103.792030187,
+      "lat": 1.276003233,
+      "connections": [
+        {
+          "next_station": 18,
+          "line_id": 5,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        5
+      ]
+    },
+    "18": {
+      "id": 18,
+      "station_name": "Labrador Park",
+      "x": 0.36677851,
+      "y": 0.828858608,
+      "lon": 103.802355554,
+      "lat": 1.272106958,
+      "connections": [
+        {
+          "next_station": 19,
+          "line_id": 5,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        5
+      ]
+    },
+    "19": {
+      "id": 19,
+      "station_name": "Telok Blangah",
+      "x": 0.398232668,
+      "y": 0.859462653,
+      "lon": 103.809883731,
+      "lat": 1.270721226,
+      "connections": [
+        {
+          "next_station": 88,
+          "line_id": 5,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        5
+      ]
+    },
+    "20": {
+      "id": 20,
+      "station_name": "Promenade",
+      "x": 0.742528185,
+      "y": 0.804949197,
+      "lon": 103.860136884,
+      "lat": 1.293862088,
+      "connections": [
+        {
+          "next_station": 4,
+          "line_id": 5,
+          "connection_style": "filled"
+        },
+        {
+          "next_station": 4,
+          "line_id": 5,
+          "connection_style": "filled"
+        },
+        {
+          "next_station": 25,
+          "line_id": 4,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        4,
+        5
+      ]
+    },
+    "21": {
+      "id": 21,
+      "station_name": "MacPherson",
+      "x": 0.772282118,
+      "y": 0.518992643,
+      "lon": 103.888615212,
+      "lat": 1.326192778,
+      "connections": [
+        {
+          "next_station": 8,
+          "line_id": 5,
+          "connection_style": "filled"
+        },
+        {
+          "next_station": 42,
+          "line_id": 4,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        4,
+        5
+      ]
+    },
+    "22": {
+      "id": 22,
+      "station_name": "Botanic Gardens",
+      "x": 0.349776262,
+      "y": 0.475955704,
+      "lon": 103.815914146,
+      "lat": 1.322684612,
+      "connections": [
+        {
+          "next_station": 12,
+          "line_id": 5,
+          "connection_style": "filled"
+        },
+        {
+          "next_station": 50,
+          "line_id": 4,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        4,
+        5
+      ]
+    },
+    "23": {
+      "id": 23,
+      "station_name": "Paya Lebar",
+      "x": 0.791834703,
+      "y": 0.582113488,
+      "lon": 103.892788324,
+      "lat": 1.318215992,
+      "connections": [
+        {
+          "next_station": 21,
+          "line_id": 5,
+          "connection_style": "filled"
+        },
+        {
+          "next_station": 56,
+          "line_id": 3,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        3,
+        5
+      ]
+    },
+    "24": {
+      "id": 24,
+      "station_name": "Buona Vista",
+      "x": 0.302169969,
+      "y": 0.637583321,
+      "lon": 103.790449175,
+      "lat": 1.307309451,
+      "connections": [
+        {
+          "next_station": 14,
+          "line_id": 5,
+          "connection_style": "filled"
+        },
+        {
+          "next_station": 64,
+          "line_id": 3,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        3,
+        5
+      ]
+    },
+    "25": {
+      "id": 25,
+      "station_name": "Bayfront",
+      "x": 0.70172279,
+      "y": 0.857549901,
+      "lon": 103.859596872,
+      "lat": 1.282834909,
+      "connections": [
+        {
+          "next_station": 20,
+          "line_id": 5,
+          "connection_style": "filled"
+        },
+        {
+          "next_station": 34,
+          "line_id": 4,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        4,
+        5
+      ]
+    },
+    "26": {
+      "id": 26,
+      "station_name": "Changi Airport",
+      "x": 1.105526173,
+      "y": 0.510385255,
+      "lon": 103.989276642,
+      "lat": 1.356341421,
+      "connections": [],
+      "station_line": [
+        7
+      ]
+    },
+    "27": {
+      "id": 27,
+      "station_name": "Cashew",
+      "x": 0.249463001,
+      "y": 0.334411991,
+      "lon": 103.764234481,
+      "lat": 1.369833319,
+      "connections": [
+        {
+          "next_station": 28,
+          "line_id": 4,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        4
+      ]
+    },
+    "28": {
+      "id": 28,
+      "station_name": "Hillview",
+      "x": 0.248612889,
+      "y": 0.356408649,
+      "lon": 103.76768829,
+      "lat": 1.362474238,
+      "connections": [
+        {
+          "next_station": 147,
+          "line_id": 4,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        4
+      ]
+    },
+    "29": {
+      "id": 29,
+      "station_name": "Beauty World",
+      "x": 0.249463001,
+      "y": 0.402314718,
+      "lon": 103.775984296,
+      "lat": 1.34169615,
+      "connections": [
+        {
+          "next_station": 30,
+          "line_id": 4,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        4
+      ]
+    },
+    "30": {
+      "id": 30,
+      "station_name": "King Albert Park",
+      "x": 0.250313113,
+      "y": 0.423355,
+      "lon": 103.784561585,
+      "lat": 1.335976046,
+      "connections": [
+        {
+          "next_station": 31,
+          "line_id": 4,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        4
+      ]
+    },
+    "31": {
+      "id": 31,
+      "station_name": "Sixth Avenue",
+      "x": 0.249463001,
+      "y": 0.444395281,
+      "lon": 103.796848178,
+      "lat": 1.331521301,
+      "connections": [
+        {
+          "next_station": 32,
+          "line_id": 4,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        4
+      ]
+    },
+    "32": {
+      "id": 32,
+      "station_name": "Tan Kah Kee",
+      "x": 0.288568171,
+      "y": 0.47691208,
+      "lon": 103.807800874,
+      "lat": 1.326146159,
+      "connections": [
+        {
+          "next_station": 22,
+          "line_id": 4,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        4
+      ]
+    },
+    "33": {
+      "id": 33,
+      "station_name": "Rochor",
+      "x": 0.608210428,
+      "y": 0.635670568,
+      "lon": 103.853104336,
+      "lat": 1.304214777,
+      "connections": [
+        {
+          "next_station": 77,
+          "line_id": 4,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        4
+      ]
+    },
+    "34": {
+      "id": 34,
+      "station_name": "Downtown",
+      "x": 0.645615373,
+      "y": 0.870939171,
+      "lon": 103.85264656,
+      "lat": 1.279773455,
+      "connections": [
+        {
+          "next_station": 35,
+          "line_id": 4,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        4
+      ]
+    },
+    "35": {
+      "id": 35,
+      "station_name": "Telok Ayer",
+      "x": 0.574205932,
+      "y": 0.823120349,
+      "lon": 103.848841656,
+      "lat": 1.282250664,
+      "connections": [
+        {
+          "next_station": 89,
+          "line_id": 4,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        4
+      ]
+    },
+    "36": {
+      "id": 36,
+      "station_name": "Fort Canning",
+      "x": 0.496845705,
+      "y": 0.699747789,
+      "lon": 103.844425032,
+      "lat": 1.292830276,
+      "connections": [
+        {
+          "next_station": 37,
+          "line_id": 4,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        4
+      ]
+    },
+    "37": {
+      "id": 37,
+      "station_name": "Bencoolen",
+      "x": 0.627763012,
+      "y": 0.687314895,
+      "lon": 103.849271704,
+      "lat": 1.297699118,
+      "connections": [
+        {
+          "next_station": 38,
+          "line_id": 4,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        4
+      ]
+    },
+    "38": {
+      "id": 38,
+      "station_name": "Jalan Besar",
+      "x": 0.656666834,
+      "y": 0.652885344,
+      "lon": 103.855296125,
+      "lat": 1.304889894,
+      "connections": [
+        {
+          "next_station": 39,
+          "line_id": 4,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        4
+      ]
+    },
+    "39": {
+      "id": 39,
+      "station_name": "Bendemeer",
+      "x": 0.694071779,
+      "y": 0.611761157,
+      "lon": 103.863074006,
+      "lat": 1.313852506,
+      "connections": [
+        {
+          "next_station": 40,
+          "line_id": 4,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        4
+      ]
+    },
+    "40": {
+      "id": 40,
+      "station_name": "Geylang Bahru",
+      "x": 0.720425263,
+      "y": 0.582113488,
+      "lon": 103.871555608,
+      "lat": 1.321561699,
+      "connections": [
+        {
+          "next_station": 41,
+          "line_id": 4,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        4
+      ]
+    },
+    "41": {
+      "id": 41,
+      "station_name": "Mattar",
+      "x": 0.747628859,
+      "y": 0.549596689,
+      "lon": 103.883748387,
+      "lat": 1.326463522,
+      "connections": [
+        {
+          "next_station": 21,
+          "line_id": 4,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        4
+      ]
+    },
+    "42": {
+      "id": 42,
+      "station_name": "Ubi",
+      "x": 0.807136726,
+      "y": 0.484563091,
+      "lon": 103.898585571,
+      "lat": 1.329830771,
+      "connections": [
+        {
+          "next_station": 43,
+          "line_id": 4,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        4
+      ]
+    },
+    "43": {
+      "id": 43,
+      "station_name": "Kaki Bukit",
+      "x": 0.836040547,
+      "y": 0.45013354,
+      "lon": 103.909146276,
+      "lat": 1.33492189,
+      "connections": [
+        {
+          "next_station": 44,
+          "line_id": 4,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        4
+      ]
+    },
+    "44": {
+      "id": 44,
+      "station_name": "Bedok North",
+      "x": 0.862394031,
+      "y": 0.421442247,
+      "lon": 103.917810526,
+      "lat": 1.334422577,
+      "connections": [
+        {
+          "next_station": 45,
+          "line_id": 4,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        4
+      ]
+    },
+    "45": {
+      "id": 45,
+      "station_name": "Bedok Reservoir",
+      "x": 0.912550662,
+      "y": 0.40996573,
+      "lon": 103.93348719,
+      "lat": 1.336554903,
+      "connections": [
+        {
+          "next_station": 46,
+          "line_id": 4,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        4
+      ]
+    },
+    "46": {
+      "id": 46,
+      "station_name": "Tampines West",
+      "x": 0.96185718,
+      "y": 0.40996573,
+      "lon": 103.938948504,
+      "lat": 1.344999198,
+      "connections": [
+        {
+          "next_station": 76,
+          "line_id": 4,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        4
+      ]
+    },
+    "47": {
+      "id": 47,
+      "station_name": "Tampines East",
+      "x": 1.060470217,
+      "y": 0.437700646,
+      "lon": 103.942653682,
+      "lat": 1.354193928,
+      "connections": [
+        {
+          "next_station": 48,
+          "line_id": 4,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        4
+      ]
+    },
+    "48": {
+      "id": 48,
+      "station_name": "Upper Changi",
+      "x": 1.060470217,
+      "y": 0.466391939,
+      "lon": 103.961043081,
+      "lat": 1.340840474,
+      "connections": [
+        {
+          "next_station": 49,
+          "line_id": 4,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        4
+      ]
+    },
+    "49": {
+      "id": 49,
+      "station_name": "Expo",
+      "x": 1.060470217,
+      "y": 0.511341632,
+      "lon": 103.962161022,
+      "lat": 1.335950972,
+      "connections": [
+        {
+          "next_station": 146,
+          "line_id": 4,
+          "connection_style": "filled"
+        },
+        {
+          "next_station": 26,
+          "line_id": 7,
+          "connection_style": "double"
+        }
+      ],
+      "station_line": [
+        4,
+        7
+      ]
+    },
+    "50": {
+      "id": 50,
+      "station_name": "Stevens",
+      "x": 0.425436265,
+      "y": 0.474999327,
+      "lon": 103.826322577,
+      "lat": 1.320937743,
+      "connections": [
+        {
+          "next_station": 129,
+          "line_id": 1,
+          "connection_style": "filled"
+        },
+        {
+          "next_station": 112,
+          "line_id": 4,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        1,
+        4
+      ]
+    },
+    "51": {
+      "id": 51,
+      "station_name": "Pasir Ris",
+      "x": 1.005212912,
+      "y": 0.361190531,
+      "lon": 103.94913694,
+      "lat": 1.372886236,
+      "connections": [
+        {
+          "next_station": 76,
+          "line_id": 3,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        3
+      ]
+    },
+    "52": {
+      "id": 52,
+      "station_name": "Simei",
+      "x": 1.003512687,
+      "y": 0.438657023,
+      "lon": 103.953818676,
+      "lat": 1.342661795,
+      "connections": [
+        {
+          "next_station": 75,
+          "line_id": 3,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        3
+      ]
+    },
+    "53": {
+      "id": 53,
+      "station_name": "Bedok",
+      "x": 0.921051785,
+      "y": 0.462566433,
+      "lon": 103.92940428,
+      "lat": 1.324074646,
+      "connections": [
+        {
+          "next_station": 54,
+          "line_id": 3,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        3
+      ]
+    },
+    "54": {
+      "id": 54,
+      "station_name": "Kembangan",
+      "x": 0.863244143,
+      "y": 0.496995985,
+      "lon": 103.912899289,
+      "lat": 1.321152108,
+      "connections": [
+        {
+          "next_station": 55,
+          "line_id": 3,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        3
+      ]
+    },
+    "55": {
+      "id": 55,
+      "station_name": "Eunos",
+      "x": 0.828389535,
+      "y": 0.536207419,
+      "lon": 103.903215187,
+      "lat": 1.319529919,
+      "connections": [
+        {
+          "next_station": 23,
+          "line_id": 3,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        3
+      ]
+    },
+    "56": {
+      "id": 56,
+      "station_name": "Aljunied",
+      "x": 0.757830207,
+      "y": 0.618455792,
+      "lon": 103.882472888,
+      "lat": 1.31648793,
+      "connections": [
+        {
+          "next_station": 57,
+          "line_id": 3,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        3
+      ]
+    },
+    "57": {
+      "id": 57,
+      "station_name": "Kallang",
+      "x": 0.731476724,
+      "y": 0.647147085,
+      "lon": 103.871587076,
+      "lat": 1.311781771,
+      "connections": [
+        {
+          "next_station": 58,
+          "line_id": 3,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        3
+      ]
+    },
+    "58": {
+      "id": 58,
+      "station_name": "Lavender",
+      "x": 0.704273127,
+      "y": 0.678707507,
+      "lon": 103.863043063,
+      "lat": 1.30716946,
+      "connections": [
+        {
+          "next_station": 77,
+          "line_id": 3,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        3
+      ]
+    },
+    "59": {
+      "id": 59,
+      "station_name": "Tanjong Pagar",
+      "x": 0.501096267,
+      "y": 0.845117007,
+      "lon": 103.84692758,
+      "lat": 1.277379488,
+      "connections": [
+        {
+          "next_station": 91,
+          "line_id": 3,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        3
+      ]
+    },
+    "60": {
+      "id": 60,
+      "station_name": "Tiong Bahru",
+      "x": 0.415234916,
+      "y": 0.751392116,
+      "lon": 103.826990595,
+      "lat": 1.285759456,
+      "connections": [
+        {
+          "next_station": 61,
+          "line_id": 3,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        3
+      ]
+    },
+    "61": {
+      "id": 61,
+      "station_name": "Redhill",
+      "x": 0.388881432,
+      "y": 0.720788071,
+      "lon": 103.816994459,
+      "lat": 1.289370705,
+      "connections": [
+        {
+          "next_station": 62,
+          "line_id": 3,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        3
+      ]
+    },
+    "62": {
+      "id": 62,
+      "station_name": "Queenstown",
+      "x": 0.362527948,
+      "y": 0.691140401,
+      "lon": 103.80558473,
+      "lat": 1.295446256,
+      "connections": [
+        {
+          "next_station": 63,
+          "line_id": 3,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        3
+      ]
+    },
+    "63": {
+      "id": 63,
+      "station_name": "Commonwealth",
+      "x": 0.337874689,
+      "y": 0.666274614,
+      "lon": 103.798778573,
+      "lat": 1.302077046,
+      "connections": [
+        {
+          "next_station": 24,
+          "line_id": 3,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        3
+      ]
+    },
+    "64": {
+      "id": 64,
+      "station_name": "Dover",
+      "x": 0.257964125,
+      "y": 0.638539697,
+      "lon": 103.778304715,
+      "lat": 1.311415433,
+      "connections": [
+        {
+          "next_station": 65,
+          "line_id": 3,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        3
+      ]
+    },
+    "65": {
+      "id": 65,
+      "station_name": "Clementi",
+      "x": 0.219709067,
+      "y": 0.639496074,
+      "lon": 103.765570116,
+      "lat": 1.314078414,
+      "connections": [
+        {
+          "next_station": 113,
+          "line_id": 3,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        3
+      ]
+    },
+    "66": {
+      "id": 66,
+      "station_name": "Chinese Garden",
+      "x": 0.116845469,
+      "y": 0.638539697,
+      "lon": 103.733393136,
+      "lat": 1.341565826,
+      "connections": [
+        {
+          "next_station": 67,
+          "line_id": 3,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        3
+      ]
+    },
+    "67": {
+      "id": 67,
+      "station_name": "Lakeside",
+      "x": 0.07433985,
+      "y": 0.638539697,
+      "lon": 103.720448529,
+      "lat": 1.343983341,
+      "connections": [
+        {
+          "next_station": 68,
+          "line_id": 3,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        3
+      ]
+    },
+    "68": {
+      "id": 68,
+      "station_name": "Boon Lay",
+      "x": 0.034384567,
+      "y": 0.591677252,
+      "lon": 103.706145548,
+      "lat": 1.338420696,
+      "connections": [
+        {
+          "next_station": 69,
+          "line_id": 3,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        3
+      ]
+    },
+    "69": {
+      "id": 69,
+      "station_name": "Pioneer",
+      "x": 0.034384567,
+      "y": 0.553422195,
+      "lon": 103.697155373,
+      "lat": 1.337344627,
+      "connections": [
+        {
+          "next_station": 70,
+          "line_id": 3,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        3
+      ]
+    },
+    "70": {
+      "id": 70,
+      "station_name": "Joo Koon",
+      "x": 0.034384567,
+      "y": 0.51707989,
+      "lon": 103.678520709,
+      "lat": 1.327502084,
+      "connections": [
+        {
+          "next_station": 71,
+          "line_id": 3,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        3
+      ]
+    },
+    "71": {
+      "id": 71,
+      "station_name": "Gul Circle",
+      "x": 0.03523468,
+      "y": 0.475955704,
+      "lon": 103.660444144,
+      "lat": 1.319032267,
+      "connections": [
+        {
+          "next_station": 72,
+          "line_id": 3,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        3
+      ]
+    },
+    "72": {
+      "id": 72,
+      "station_name": "Tuas Crescent",
+      "x": 0.034384567,
+      "y": 0.438657023,
+      "lon": 103.648958741,
+      "lat": 1.320763817,
+      "connections": [
+        {
+          "next_station": 73,
+          "line_id": 3,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        3
+      ]
+    },
+    "73": {
+      "id": 73,
+      "station_name": "Tuas West Road",
+      "x": 0.034384567,
+      "y": 0.402314718,
+      "lon": 103.639284345,
+      "lat": 1.329872424,
+      "connections": [
+        {
+          "next_station": 74,
+          "line_id": 3,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        3
+      ]
+    },
+    "74": {
+      "id": 74,
+      "station_name": "Tuas Link",
+      "x": 0.034384567,
+      "y": 0.363103284,
+      "lon": 103.63724572,
+      "lat": 1.340426899,
+      "connections": [],
+      "station_line": [
+        3
+      ]
+    },
+    "75": {
+      "id": 75,
+      "station_name": "Tanah Merah",
+      "x": 0.989060776,
+      "y": 0.461610057,
+      "lon": 103.945723042,
+      "lat": 1.327061276,
+      "connections": [
+        {
+          "next_station": 53,
+          "line_id": 3,
+          "connection_style": "filled"
+        },
+        {
+          "next_station": 49,
+          "line_id": 7,
+          "connection_style": "double"
+        }
+      ],
+      "station_line": [
+        3,
+        7
+      ]
+    },
+    "76": {
+      "id": 76,
+      "station_name": "Tampines",
+      "x": 1.005212912,
+      "y": 0.39370733,
+      "lon": 103.942653682,
+      "lat": 1.354193928,
+      "connections": [
+        {
+          "next_station": 52,
+          "line_id": 3,
+          "connection_style": "filled"
+        },
+        {
+          "next_station": 47,
+          "line_id": 4,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        3,
+        4
+      ]
+    },
+    "77": {
+      "id": 77,
+      "station_name": "Bugis",
+      "x": 0.673669081,
+      "y": 0.711224306,
+      "lon": 103.856890655,
+      "lat": 1.299078849,
+      "connections": [
+        {
+          "next_station": 114,
+          "line_id": 3,
+          "connection_style": "filled"
+        },
+        {
+          "next_station": 20,
+          "line_id": 4,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        3,
+        4
+      ]
+    },
+    "78": {
+      "id": 78,
+      "station_name": "Clarke Quay",
+      "x": 0.518098515,
+      "y": 0.722700823,
+      "lon": 103.846665834,
+      "lat": 1.289383852,
+      "connections": [
+        {
+          "next_station": 116,
+          "line_id": 6,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        6
+      ]
+    },
+    "79": {
+      "id": 79,
+      "station_name": "Farrer Park",
+      "x": 0.570805483,
+      "y": 0.554378571,
+      "lon": 103.854763768,
+      "lat": 1.313543966,
+      "connections": [
+        {
+          "next_station": 80,
+          "line_id": 6,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        6
+      ]
+    },
+    "80": {
+      "id": 80,
+      "station_name": "Boon Keng",
+      "x": 0.56995537,
+      "y": 0.513254384,
+      "lon": 103.860706833,
+      "lat": 1.317914816,
+      "connections": [
+        {
+          "next_station": 81,
+          "line_id": 6,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        6
+      ]
+    },
+    "81": {
+      "id": 81,
+      "station_name": "Potong Pasir",
+      "x": 0.593758517,
+      "y": 0.472130198,
+      "lon": 103.868966445,
+      "lat": 1.332801352,
+      "connections": [
+        {
+          "next_station": 82,
+          "line_id": 6,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        6
+      ]
+    },
+    "82": {
+      "id": 82,
+      "station_name": "Woodleigh",
+      "x": 0.6260627877,
+      "y": 0.432918764,
+      "lon": 103.8710538042,
+      "lat": 1.3398672199,
+      "connections": [
+        {
+          "next_station": 87,
+          "line_id": 6,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        6
+      ]
+    },
+    "83": {
+      "id": 83,
+      "station_name": "Kovan",
+      "x": 0.6923715538,
+      "y": 0.3573650257,
+      "lon": 103.8847217321,
+      "lat": 1.3602056231,
+      "connections": [
+        {
+          "next_station": 84,
+          "line_id": 6,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        6
+      ]
+    },
+    "84": {
+      "id": 84,
+      "station_name": "Hougang",
+      "x": 0.7178749254,
+      "y": 0.3296301092,
+      "lon": 103.892972401,
+      "lat": 1.3719461166,
+      "connections": [
+        {
+          "next_station": 85,
+          "line_id": 6,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        6
+      ]
+    },
+    "85": {
+      "id": 85,
+      "station_name": "Buangkok",
+      "x": 0.7408279598,
+      "y": 0.302851569,
+      "lon": 103.8928838367,
+      "lat": 1.383409791,
+      "connections": [
+        {
+          "next_station": 86,
+          "line_id": 6,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        6
+      ]
+    },
+    "86": {
+      "id": 86,
+      "station_name": "Sengkang",
+      "x": 0.7654812189,
+      "y": 0.2760730289,
+      "lon": 103.8957054566,
+      "lat": 1.3923708436,
+      "connections": [
+        {
+          "next_station": 92,
+          "line_id": 6,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        6
+      ]
+    },
+    "87": {
+      "id": 87,
+      "station_name": "Serangoon",
+      "x": 0.6617675079,
+      "y": 0.3917945774,
+      "lon": 103.8735464957,
+      "lat": 1.3497276995,
+      "connections": [
+        {
+          "next_station": 10,
+          "line_id": 5,
+          "connection_style": "filled"
+        },
+        {
+          "next_station": 83,
+          "line_id": 6,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        5,
+        6
+      ]
+    },
+    "88": {
+      "id": 88,
+      "station_name": "HarbourFront",
+      "x": 0.4415884001,
+      "y": 0.8891103229,
+      "lon": 103.8225316516,
+      "lat": 1.2652598837,
+      "connections": [
+        {
+          "next_station": 119,
+          "line_id": 5,
+          "connection_style": "dotted"
+        },
+        {
+          "next_station": 91,
+          "line_id": 6,
+          "connection_style": "filled"
+        },
+        {
+          "next_station": 120,
+          "line_id": 8,
+          "connection_style": "linedot"
+        }
+      ],
+      "station_line": [
+        5,
+        6,
+        8
+      ]
+    },
+    "89": {
+      "id": 89,
+      "station_name": "Chinatown",
+      "x": 0.4993960423,
+      "y": 0.7446974814,
+      "lon": 103.8444585417,
+      "lat": 1.2847360836,
+      "connections": [
+        {
+          "next_station": 78,
+          "line_id": 6,
+          "connection_style": "filled"
+        },
+        {
+          "next_station": 36,
+          "line_id": 4,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        4,
+        6
+      ]
+    },
+    "90": {
+      "id": 90,
+      "station_name": "Little India",
+      "x": 0.571655595,
+      "y": 0.5964591342,
+      "lon": 103.8483043991,
+      "lat": 1.3076835366,
+      "connections": [
+        {
+          "next_station": 33,
+          "line_id": 4,
+          "connection_style": "filled"
+        },
+        {
+          "next_station": 79,
+          "line_id": 6,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        4,
+        6
+      ]
+    },
+    "91": {
+      "id": 91,
+      "station_name": "Outram Park",
+      "x": 0.4441387372,
+      "y": 0.7819961623,
+      "lon": 103.8403867871,
+      "lat": 1.2802133539,
+      "connections": [
+        {
+          "next_station": 133,
+          "line_id": 1,
+          "connection_style": "filled"
+        },
+        {
+          "next_station": 60,
+          "line_id": 3,
+          "connection_style": "filled"
+        },
+        {
+          "next_station": 89,
+          "line_id": 6,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        1,
+        3,
+        6
+      ]
+    },
+    "92": {
+      "id": 92,
+      "station_name": "Punggol",
+      "x": 0.8249890859,
+      "y": 0.2081703021,
+      "lon": 103.9023059967,
+      "lat": 1.4053395762,
+      "connections": [],
+      "station_line": [
+        6
+      ]
+    },
+    "93": {
+      "id": 93,
+      "station_name": "Bukit Batok",
+      "x": 0.1644517624,
+      "y": 0.5543785711,
+      "lon": 103.7497665649,
+      "lat": 1.3495200607,
+      "connections": [
+        {
+          "next_station": 110,
+          "line_id": 2,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        2
+      ]
+    },
+    "94": {
+      "id": 94,
+      "station_name": "Bukit Gombak",
+      "x": 0.16360165,
+      "y": 0.4912577265,
+      "lon": 103.7520929957,
+      "lat": 1.3586952613,
+      "connections": [],
+      "station_line": [
+        2
+      ]
+    },
+    "95": {
+      "id": 95,
+      "station_name": "Yew Tee",
+      "x": 0.1644517624,
+      "y": 0.3411066264,
+      "lon": 103.74732988,
+      "lat": 1.3980677681,
+      "connections": [
+        {
+          "next_station": 96,
+          "line_id": 2,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        2
+      ]
+    },
+    "96": {
+      "id": 96,
+      "station_name": "Kranji",
+      "x": 0.16360165,
+      "y": 0.267465641,
+      "lon": 103.7619406061,
+      "lat": 1.4248526447,
+      "connections": [
+        {
+          "next_station": 97,
+          "line_id": 2,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        2
+      ]
+    },
+    "97": {
+      "id": 97,
+      "station_name": "Marsiling",
+      "x": 0.1976061454,
+      "y": 0.1833045148,
+      "lon": 103.773820451,
+      "lat": 1.4324695224,
+      "connections": [
+        {
+          "next_station": 117,
+          "line_id": 2,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        2
+      ]
+    },
+    "98": {
+      "id": 98,
+      "station_name": "Admiralty",
+      "x": 0.3429753633,
+      "y": 0.1651333626,
+      "lon": 103.8005424582,
+      "lat": 1.4405962857,
+      "connections": [
+        {
+          "next_station": 99,
+          "line_id": 2,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        2
+      ]
+    },
+    "99": {
+      "id": 99,
+      "station_name": "Sembawang",
+      "x": 0.3922818817,
+      "y": 0.1651333626,
+      "lon": 103.8201097358,
+      "lat": 1.4488373194,
+      "connections": [
+        {
+          "next_station": 100,
+          "line_id": 2,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        2
+      ]
+    },
+    "100": {
+      "id": 100,
+      "station_name": "Canberra",
+      "x": 0.4441387372,
+      "y": 0.1670461154,
+      "lon": 103.8292546439,
+      "lat": 1.4435113388,
+      "connections": [
+        {
+          "next_station": 101,
+          "line_id": 2,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        2
+      ]
+    },
+    "101": {
+      "id": 101,
+      "station_name": "Yishun",
+      "x": 0.4968457051,
+      "y": 0.1852172677,
+      "lon": 103.8347836032,
+      "lat": 1.4293971673,
+      "connections": [
+        {
+          "next_station": 102,
+          "line_id": 2,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        2
+      ]
+    },
+    "102": {
+      "id": 102,
+      "station_name": "Khatib",
+      "x": 0.5240493015,
+      "y": 0.2225159486,
+      "lon": 103.83323102,
+      "lat": 1.4178690371,
+      "connections": [
+        {
+          "next_station": 103,
+          "line_id": 2,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        2
+      ]
+    },
+    "103": {
+      "id": 103,
+      "station_name": "Yio Chu Kang",
+      "x": 0.5334005377,
+      "y": 0.2655528881,
+      "lon": 103.8446457604,
+      "lat": 1.3819536213,
+      "connections": [
+        {
+          "next_station": 104,
+          "line_id": 2,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        2
+      ]
+    },
+    "104": {
+      "id": 104,
+      "station_name": "Ang Mo Kio",
+      "x": 0.5325504253,
+      "y": 0.3105025805,
+      "lon": 103.8498245725,
+      "lat": 1.3698823753,
+      "connections": [
+        {
+          "next_station": 111,
+          "line_id": 2,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        2
+      ]
+    },
+    "105": {
+      "id": 105,
+      "station_name": "Braddell",
+      "x": 0.5317003129,
+      "y": 0.3937073302,
+      "lon": 103.8474408306,
+      "lat": 1.3406721639,
+      "connections": [
+        {
+          "next_station": 106,
+          "line_id": 2,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        2
+      ]
+    },
+    "106": {
+      "id": 106,
+      "station_name": "Toa Payoh",
+      "x": 0.5317003129,
+      "y": 0.4357878933,
+      "lon": 103.8477238043,
+      "lat": 1.332376442,
+      "connections": [
+        {
+          "next_station": 107,
+          "line_id": 2,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        2
+      ]
+    },
+    "107": {
+      "id": 107,
+      "station_name": "Novena",
+      "x": 0.5095973909,
+      "y": 0.483606715,
+      "lon": 103.8433397335,
+      "lat": 1.319895886,
+      "connections": [
+        {
+          "next_station": 112,
+          "line_id": 2,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        2
+      ]
+    },
+    "108": {
+      "id": 108,
+      "station_name": "Somerset",
+      "x": 0.4755928955,
+      "y": 0.6299323093,
+      "lon": 103.8387655843,
+      "lat": 1.3004362206,
+      "connections": [
+        {
+          "next_station": 116,
+          "line_id": 2,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        2
+      ]
+    },
+    "109": {
+      "id": 109,
+      "station_name": "Marina South Pier",
+      "x": 0.6549666088,
+      "y": 0.9273653802,
+      "lon": 103.8615038787,
+      "lat": 1.2735748045,
+      "connections": [],
+      "station_line": [
+        2
+      ]
+    },
+    "110": {
+      "id": 110,
+      "station_name": "Choa Chu Kang",
+      "x": 0.1627515376,
+      "y": 0.4157039882,
+      "lon": 103.7445177988,
+      "lat": 1.3857361854,
+      "connections": [
+        {
+          "next_station": 95,
+          "line_id": 2,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        2
+      ]
+    },
+    "111": {
+      "id": 111,
+      "station_name": "Bishan",
+      "x": 0.5308502005,
+      "y": 0.360234155,
+      "lon": 103.850201082,
+      "lat": 1.3510532199,
+      "connections": [
+        {
+          "next_station": 11,
+          "line_id": 5,
+          "connection_style": "filled"
+        },
+        {
+          "next_station": 105,
+          "line_id": 2,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        2,
+        5
+      ]
+    },
+    "112": {
+      "id": 112,
+      "station_name": "Newton",
+      "x": 0.4764430079,
+      "y": 0.5180362666,
+      "lon": 103.8382423816,
+      "lat": 1.3136172691,
+      "connections": [
+        {
+          "next_station": 90,
+          "line_id": 4,
+          "connection_style": "filled"
+        },
+        {
+          "next_station": 118,
+          "line_id": 2,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        2,
+        4
+      ]
+    },
+    "113": {
+      "id": 113,
+      "station_name": "Jurong East",
+      "x": 0.16360165,
+      "y": 0.6385396973,
+      "lon": 103.742640163,
+      "lat": 1.3325262356,
+      "connections": [
+        {
+          "next_station": 93,
+          "line_id": 2,
+          "connection_style": "filled"
+        },
+        {
+          "next_station": 66,
+          "line_id": 3,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        2,
+        3
+      ]
+    },
+    "114": {
+      "id": 114,
+      "station_name": "City Hall",
+      "x": 0.6048099781,
+      "y": 0.7839089152,
+      "lon": 103.8518023338,
+      "lat": 1.293454826,
+      "connections": [
+        {
+          "next_station": 115,
+          "line_id": 2,
+          "connection_style": "filled"
+        },
+        {
+          "next_station": 115,
+          "line_id": 3,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        2,
+        3
+      ]
+    },
+    "115": {
+      "id": 115,
+      "station_name": "Raffles Place",
+      "x": 0.6056600905,
+      "y": 0.8240767254,
+      "lon": 103.8516217159,
+      "lat": 1.2852582812,
+      "connections": [
+        {
+          "next_station": 119,
+          "line_id": 2,
+          "connection_style": "filled"
+        },
+        {
+          "next_station": 59,
+          "line_id": 3,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        2,
+        3
+      ]
+    },
+    "116": {
+      "id": 116,
+      "station_name": "Dhoby Ghaut",
+      "x": 0.5206488519,
+      "y": 0.6806202603,
+      "lon": 103.8467879718,
+      "lat": 1.298445092,
+      "connections": [
+        {
+          "next_station": 2,
+          "line_id": 5,
+          "connection_style": "filled"
+        },
+        {
+          "next_station": 114,
+          "line_id": 2,
+          "connection_style": "filled"
+        },
+        {
+          "next_station": 90,
+          "line_id": 6,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        2,
+        5,
+        6
+      ]
+    },
+    "117": {
+      "id": 117,
+      "station_name": "Woodlands",
+      "x": 0.2860178335,
+      "y": 0.166089739,
+      "lon": 103.7865080838,
+      "lat": 1.4366731147,
+      "connections": [
+        {
+          "next_station": 122,
+          "line_id": 1,
+          "connection_style": "filled"
+        },
+        {
+          "next_station": 98,
+          "line_id": 2,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        1,
+        2
+      ]
+    },
+    "118": {
+      "id": 118,
+      "station_name": "Orchard",
+      "x": 0.4441387372,
+      "y": 0.5830698641,
+      "lon": 103.830663099,
+      "lat": 1.3028576147,
+      "connections": [
+        {
+          "next_station": 131,
+          "line_id": 1,
+          "connection_style": "filled"
+        },
+        {
+          "next_station": 108,
+          "line_id": 2,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        1,
+        2
+      ]
+    },
+    "119": {
+      "id": 119,
+      "station_name": "Marina Bay",
+      "x": 0.6048099781,
+      "y": 0.8881539464,
+      "lon": 103.854470033,
+      "lat": 1.277353033,
+      "connections": [
+        {
+          "next_station": 25,
+          "line_id": 5,
+          "connection_style": "filled"
+        },
+        {
+          "next_station": 109,
+          "line_id": 2,
+          "connection_style": "filled"
+        },
+        {
+          "next_station": 135,
+          "line_id": 1,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        1,
+        2
+      ]
+    },
+    "120": {
+      "id": 120,
+      "station_name": "Sentosa",
+      "x": 0.4526398611,
+      "y": 0.995268107,
+      "lon": 103.8209686279,
+      "lat": 1.255559206,
+      "connections": [],
+      "station_line": [
+        8
+      ]
+    },
+    "121": {
+      "id": 121,
+      "station_name": "Woodlands North",
+      "x": 0.2486128886,
+      "y": 0.1240091759,
+      "lon": 103.7854290807,
+      "lat": 1.4479365025,
+      "connections": [
+        {
+          "next_station": 117,
+          "line_id": 1,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        1
+      ]
+    },
+    "122": {
+      "id": 122,
+      "station_name": "Woodlands South",
+      "x": 0.3115212051,
+      "y": 0.194781032,
+      "lon": 103.794365211,
+      "lat": 1.4258433869,
+      "connections": [
+        {
+          "next_station": 123,
+          "line_id": 1,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        1
+      ]
+    },
+    "123": {
+      "id": 123,
+      "station_name": "Springleaf",
+      "x": 0.3336241271,
+      "y": 0.2225159486,
+      "lon": 103.8183906071,
+      "lat": 1.3978208041,
+      "connections": [
+        {
+          "next_station": 124,
+          "line_id": 1,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        1
+      ]
+    },
+    "124": {
+      "id": 124,
+      "station_name": "Lentor",
+      "x": 0.3574272739,
+      "y": 0.2502508652,
+      "lon": 103.835823452,
+      "lat": 1.3858909901,
+      "connections": [
+        {
+          "next_station": 125,
+          "line_id": 1,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        1
+      ]
+    },
+    "125": {
+      "id": 125,
+      "station_name": "Mayflower",
+      "x": 0.3820805331,
+      "y": 0.2779857817,
+      "lon": 103.8367959781,
+      "lat": 1.3712763229,
+      "connections": [
+        {
+          "next_station": 126,
+          "line_id": 1,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        1
+      ]
+    },
+    "126": {
+      "id": 126,
+      "station_name": "Bright Hill",
+      "x": 0.4050335675,
+      "y": 0.3057206983,
+      "lon": 103.833635414,
+      "lat": 1.3640371822,
+      "connections": [
+        {
+          "next_station": 127,
+          "line_id": 1,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        1
+      ]
+    },
+    "127": {
+      "id": 127,
+      "station_name": "Upper Thomson",
+      "x": 0.42373604,
+      "y": 0.3544958964,
+      "lon": 103.831833009,
+      "lat": 1.3557365747,
+      "connections": [
+        {
+          "next_station": 145,
+          "line_id": 1,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        1
+      ]
+    },
+    "129": {
+      "id": 129,
+      "station_name": "Napier",
+      "x": 0.4254362647,
+      "y": 0.5161235137,
+      "lon": 103.8194837778,
+      "lat": 1.3069359879,
+      "connections": [
+        {
+          "next_station": 130,
+          "line_id": 1,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        1
+      ]
+    },
+    "130": {
+      "id": 130,
+      "station_name": "Orchard Boulevard",
+      "x": 0.4245861524,
+      "y": 0.5505530654,
+      "lon": 103.830663099,
+      "lat": 1.3028576147,
+      "connections": [
+        {
+          "next_station": 118,
+          "line_id": 1,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        1
+      ]
+    },
+    "131": {
+      "id": 131,
+      "station_name": "Great World",
+      "x": 0.4245861524,
+      "y": 0.6241940507,
+      "lon": 103.8334055044,
+      "lat": 1.2965525946,
+      "connections": [
+        {
+          "next_station": 132,
+          "line_id": 1,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        1
+      ]
+    },
+    "132": {
+      "id": 132,
+      "station_name": "Havelock",
+      "x": 0.4254362647,
+      "y": 0.664361861,
+      "lon": 103.8333695203,
+      "lat": 1.2888435634,
+      "connections": [
+        {
+          "next_station": 91,
+          "line_id": 1,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        1
+      ]
+    },
+    "133": {
+      "id": 133,
+      "station_name": "Maxwell",
+      "x": 0.5138479528,
+      "y": 0.807818326,
+      "lon": 103.8429163055,
+      "lat": 1.2801915224,
+      "connections": [
+        {
+          "next_station": 134,
+          "line_id": 1,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        1
+      ]
+    },
+    "134": {
+      "id": 134,
+      "station_name": "Shenton Way",
+      "x": 0.5691052579,
+      "y": 0.8728519235,
+      "lon": 103.8518357074,
+      "lat": 1.2774620583,
+      "connections": [
+        {
+          "next_station": 119,
+          "line_id": 1,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        1
+      ]
+    },
+    "135": {
+      "id": 135,
+      "station_name": "Gardens by the Bay",
+      "x": 0.7824834667,
+      "y": 0.8546807713,
+      "lon": 103.8671541221,
+      "lat": 1.27830344,
+      "connections": [
+        {
+          "next_station": 136,
+          "line_id": 1,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        1
+      ]
+    },
+    "136": {
+      "id": 136,
+      "station_name": "Tanjong Rhu",
+      "x": 0.842841446,
+      "y": 0.7877344209,
+      "lon": 103.8734779049,
+      "lat": 1.2964594883,
+      "connections": [
+        {
+          "next_station": 137,
+          "line_id": 1,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        1
+      ]
+    },
+    "137": {
+      "id": 137,
+      "station_name": "Katong Park",
+      "x": 0.8666445928,
+      "y": 0.7628686336,
+      "lon": 103.8850692176,
+      "lat": 1.2983796828,
+      "connections": [
+        {
+          "next_station": 138,
+          "line_id": 1,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        1
+      ]
+    },
+    "138": {
+      "id": 138,
+      "station_name": "Tanjong Katong",
+      "x": 0.8887475148,
+      "y": 0.7351337171,
+      "lon": 103.8970454542,
+      "lat": 1.2990386928,
+      "connections": [
+        {
+          "next_station": 139,
+          "line_id": 1,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        1
+      ]
+    },
+    "139": {
+      "id": 139,
+      "station_name": "Marine Parade",
+      "x": 0.9125506616,
+      "y": 0.7083551769,
+      "lon": 103.9059103666,
+      "lat": 1.3020932936,
+      "connections": [
+        {
+          "next_station": 140,
+          "line_id": 1,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        1
+      ]
+    },
+    "140": {
+      "id": 140,
+      "station_name": "Marine Terrace",
+      "x": 0.9363538084,
+      "y": 0.6806202603,
+      "lon": 103.9150201399,
+      "lat": 1.3068953217,
+      "connections": [
+        {
+          "next_station": 141,
+          "line_id": 1,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        1
+      ]
+    },
+    "141": {
+      "id": 141,
+      "station_name": "Siglap",
+      "x": 0.96185718,
+      "y": 0.6528853438,
+      "lon": 103.9287926249,
+      "lat": 1.3088503156,
+      "connections": [
+        {
+          "next_station": 142,
+          "line_id": 1,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        1
+      ]
+    },
+    "142": {
+      "id": 142,
+      "station_name": "Bayshore",
+      "x": 0.9814097649,
+      "y": 0.6308886858,
+      "lon": 103.9412617257,
+      "lat": 1.3118987187,
+      "connections": [
+        {
+          "next_station": 143,
+          "line_id": 1,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        1
+      ]
+    },
+    "143": {
+      "id": 143,
+      "station_name": "Bedok South",
+      "x": 1.0035126869,
+      "y": 0.6069792749,
+      "lon": 103.9294042797,
+      "lat": 1.3240746459,
+      "connections": [
+        {
+          "next_station": 144,
+          "line_id": 1,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        1
+      ]
+    },
+    "144": {
+      "id": 144,
+      "station_name": "Sungei Bedok",
+      "x": 1.0307162832,
+      "y": 0.5763752291,
+      "lon": 103.9294042797,
+      "lat": 1.3240746459,
+      "connections": [],
+      "station_line": [
+        1,
+        4
+      ]
+    },
+    "145": {
+      "id": 145,
+      "station_name": "Caldecott",
+      "x": 0.4254362647,
+      "y": 0.3994455888,
+      "lon": 103.8403874992,
+      "lat": 1.3382597299,
+      "connections": [
+        {
+          "next_station": 22,
+          "line_id": 5,
+          "connection_style": "filled"
+        },
+        {
+          "next_station": 50,
+          "line_id": 1,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        1,
+        5
+      ]
+    },
+    "146": {
+      "id": 146,
+      "station_name": "Xilin",
+      "x": 1.05555,
+      "y": 0.54,
+      "lon": 103.9649,
+      "lat": 1.3289,
+      "connections": [
+        {
+          "next_station": 144,
+          "line_id": 4,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        4
+      ]
+    },
+    "147": {
+      "id": 147,
+      "station_name": "Hume",
+      "x": 0.249463001,
+      "y": 0.383333,
+      "lon": 103.7692,
+      "lat": 1.3544,
+      "connections": [
+        {
+          "next_station": 29,
+          "line_id": 4,
+          "connection_style": "filled"
+        }
+      ],
+      "station_line": [
+        4
+      ]
+    }
+  }
+}
