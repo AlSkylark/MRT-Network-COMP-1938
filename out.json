@@ -1,0 +1,4483 @@
+{
+  "lines": {
+    "1": {
+      "id": 1,
+      "code": "TE",
+      "name": "Thomson-East Coast Line",
+      "colour": "#8c5d27"
+    },
+    "2": {
+      "id": 2,
+      "code": "NS",
+      "name": "North-South Line",
+      "colour": "#c13e31"
+    },
+    "3": {
+      "id": 3,
+      "code": "EW",
+      "name": "East-West Line",
+      "colour": "#4f924d"
+    },
+    "4": {
+      "id": 4,
+      "code": "DT",
+      "name": "Downtown Line",
+      "colour": "#3653b1"
+    },
+    "5": {
+      "id": 5,
+      "code": "CC",
+      "name": "Circle Line",
+      "colour": "#e2a33a"
+    },
+    "6": {
+      "id": 6,
+      "code": "NE",
+      "name": "North East Line",
+      "colour": "#861ca4"
+    },
+    "7": {
+      "id": 7,
+      "code": "CG",
+      "name": "Changi Airport Line",
+      "colour": "#4f924d"
+    },
+    "8": {
+      "id": 8,
+      "code": "STE",
+      "name": "Sentosa Express",
+      "colour": "#2c2924"
+    }
+  },
+  "stations": {
+    "1": {
+      "id": 1,
+      "station_name": "Bukit Panjang",
+      "x": 0.249463000939964,
+      "y": 0.312415333361566,
+      "lon": 103.7595978435728,
+      "lat": 1.380745117305777,
+      "name_direction": "top",
+      "name_origin": null
+    },
+    "2": {
+      "id": 2,
+      "station_name": "Bras Basah",
+      "x": 0.61586143909352,
+      "y": 0.722700823416926,
+      "lon": 103.8504742755075,
+      "lat": 1.296046213077239,
+      "name_direction": "left",
+      "name_origin": null
+    },
+    "3": {
+      "id": 3,
+      "station_name": "Esplanade",
+      "x": 0.671118744151481,
+      "y": 0.782952538739741,
+      "lon": 103.8555678410694,
+      "lat": 1.293128813660232,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "4": {
+      "id": 4,
+      "station_name": "Nicoll Highway",
+      "x": 0.770581893255811,
+      "y": 0.76191225719844,
+      "lon": 103.8635059552432,
+      "lat": 1.300169689708844,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "5": {
+      "id": 5,
+      "station_name": "Stadium",
+      "x": 0.785883916194939,
+      "y": 0.719831694115839,
+      "lon": 103.8762262339748,
+      "lat": 1.303370226020246,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "6": {
+      "id": 6,
+      "station_name": "Mountbatten",
+      "x": 0.79438504005001,
+      "y": 0.675838378165847,
+      "lon": 103.8832482927035,
+      "lat": 1.306045925660755,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "7": {
+      "id": 7,
+      "station_name": "Dakota",
+      "x": 0.796085264821024,
+      "y": 0.634714191516942,
+      "lon": 103.8893072153439,
+      "lat": 1.308814187524259,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "8": {
+      "id": 8,
+      "station_name": "Tai Seng",
+      "x": 0.746778746461613,
+      "y": 0.471173821355015,
+      "lon": 103.8882140677722,
+      "lat": 1.334620877230753,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "9": {
+      "id": 9,
+      "station_name": "Bartley",
+      "x": 0.713624363426836,
+      "y": 0.433875140440891,
+      "lon": 103.8789086939245,
+      "lat": 1.343501061529334,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "10": {
+      "id": 10,
+      "station_name": "Lorong Chuan",
+      "x": 0.603959865696421,
+      "y": 0.366928790082208,
+      "lon": 103.8629182999564,
+      "lat": 1.351738537912768,
+      "name_direction": "top",
+      "name_origin": null
+    },
+    "11": {
+      "id": 11,
+      "station_name": "Marymount",
+      "x": 0.468791996400793,
+      "y": 0.375536177985467,
+      "lon": 103.8400589180772,
+      "lat": 1.347866072173078,
+      "name_direction": "top",
+      "name_origin": null
+    },
+    "12": {
+      "id": 12,
+      "station_name": "Farrer Road",
+      "x": 0.321722553708067,
+      "y": 0.53142553667783,
+      "lon": 103.8079652307079,
+      "lat": 1.31749372589551,
+      "name_direction": "left",
+      "name_origin": null
+    },
+    "13": {
+      "id": 13,
+      "station_name": "Holland Village",
+      "x": 0.308120755539953,
+      "y": 0.579244358362604,
+      "lon": 103.7957537701134,
+      "lat": 1.310711201332724,
+      "name_direction": "left",
+      "name_origin": null
+    },
+    "14": {
+      "id": 14,
+      "station_name": "one-north",
+      "x": 0.30302008122691,
+      "y": 0.677751131033238,
+      "lon": 103.7877848105538,
+      "lat": 1.300074702884209,
+      "name_direction": "left",
+      "name_origin": null
+    },
+    "15": {
+      "id": 15,
+      "station_name": "Kent Ridge",
+      "x": 0.313221429852996,
+      "y": 0.72174444698323,
+      "lon": 103.784490451682,
+      "lat": 1.293984785167014,
+      "name_direction": "left",
+      "name_origin": null
+    },
+    "16": {
+      "id": 16,
+      "station_name": "Haw Par Villa",
+      "x": 0.326823228021109,
+      "y": 0.762868633632136,
+      "lon": 103.7820063970724,
+      "lat": 1.283055273541765,
+      "name_direction": "left",
+      "name_origin": null
+    },
+    "17": {
+      "id": 17,
+      "station_name": "Pasir Panjang",
+      "x": 0.342975363345744,
+      "y": 0.793472679510391,
+      "lon": 103.7920301869204,
+      "lat": 1.276003232785054,
+      "name_direction": "left",
+      "name_origin": null
+    },
+    "18": {
+      "id": 18,
+      "station_name": "Labrador Park",
+      "x": 0.366778510139942,
+      "y": 0.828858607557124,
+      "lon": 103.8023555536629,
+      "lat": 1.272106958054335,
+      "name_direction": "left",
+      "name_origin": null
+    },
+    "19": {
+      "id": 19,
+      "station_name": "Telok Blangah",
+      "x": 0.398232668403705,
+      "y": 0.859462653435379,
+      "lon": 103.8098837309202,
+      "lat": 1.270721226211404,
+      "name_direction": "left",
+      "name_origin": null
+    },
+    "20": {
+      "id": 20,
+      "station_name": "Promenade",
+      "x": 0.742528184534077,
+      "y": 0.804949196714737,
+      "lon": 103.8601368844023,
+      "lat": 1.293862087876265,
+      "name_direction": "right",
+      "name_origin": 21
+    },
+    "21": {
+      "id": 21,
+      "station_name": "MacPherson",
+      "x": 0.772282118026825,
+      "y": 0.518992643039789,
+      "lon": 103.8886152116773,
+      "lat": 1.326192777550482,
+      "name_direction": "left",
+      "name_origin": null
+    },
+    "22": {
+      "id": 22,
+      "station_name": "Botanic Gardens",
+      "x": 0.349776262429801,
+      "y": 0.475955703523492,
+      "lon": 103.8159141457915,
+      "lat": 1.32268461233639,
+      "name_direction": "top;left",
+      "name_origin": 12
+    },
+    "23": {
+      "id": 23,
+      "station_name": "Paya Lebar",
+      "x": 0.791834702893488,
+      "y": 0.582113487663691,
+      "lon": 103.8927883241053,
+      "lat": 1.318215992150078,
+      "name_direction": "right",
+      "name_origin": 27
+    },
+    "24": {
+      "id": 24,
+      "station_name": "Buona Vista",
+      "x": 0.302169968841403,
+      "y": 0.637583320818028,
+      "lon": 103.7904491753026,
+      "lat": 1.307309450770241,
+      "name_direction": "right",
+      "name_origin": 28
+    },
+    "25": {
+      "id": 25,
+      "station_name": "Bayfront",
+      "x": 0.701722790029737,
+      "y": 0.857549900567988,
+      "lon": 103.8595968721875,
+      "lat": 1.28283490868894,
+      "name_direction": "right",
+      "name_origin": 31
+    },
+    "26": {
+      "id": 26,
+      "station_name": "Changi Airport",
+      "x": 1.1055261731456,
+      "y": 0.51038525513653,
+      "lon": 103.9892766424138,
+      "lat": 1.356341421004803,
+      "name_direction": "bottom",
+      "name_origin": null
+    },
+    "27": {
+      "id": 27,
+      "station_name": "Cashew",
+      "x": 0.249463000939964,
+      "y": 0.334411991336561,
+      "lon": 103.764234480711,
+      "lat": 1.369833318596293,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "28": {
+      "id": 28,
+      "station_name": "Hillview",
+      "x": 0.248612888554457,
+      "y": 0.356408649311558,
+      "lon": 103.7676882901031,
+      "lat": 1.362474237945068,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "29": {
+      "id": 29,
+      "station_name": "Beauty World",
+      "x": 0.249463000939964,
+      "y": 0.402314718128941,
+      "lon": 103.7759842962261,
+      "lat": 1.341696149932801,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "30": {
+      "id": 30,
+      "station_name": "King Albert Park",
+      "x": 0.250313113325471,
+      "y": 0.423354999670241,
+      "lon": 103.7845615847806,
+      "lat": 1.33597604551556,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "31": {
+      "id": 31,
+      "station_name": "Sixth Avenue",
+      "x": 0.249463000939964,
+      "y": 0.444395281211542,
+      "lon": 103.7968481782287,
+      "lat": 1.331521301435717,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "32": {
+      "id": 32,
+      "station_name": "Tan Kah Kee",
+      "x": 0.28856817067329,
+      "y": 0.476912079957188,
+      "lon": 103.8078008737065,
+      "lat": 1.326146158825493,
+      "name_direction": "bottom",
+      "name_origin": null
+    },
+    "33": {
+      "id": 33,
+      "station_name": "Rochor",
+      "x": 0.608210427623956,
+      "y": 0.635670567950637,
+      "lon": 103.8531043356494,
+      "lat": 1.304214777033743,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "34": {
+      "id": 34,
+      "station_name": "Downtown",
+      "x": 0.645615372586269,
+      "y": 0.870939170639725,
+      "lon": 103.8526465600109,
+      "lat": 1.279773455282965,
+      "name_direction": "top",
+      "name_origin": null
+    },
+    "35": {
+      "id": 35,
+      "station_name": "Telok Ayer",
+      "x": 0.574205932203673,
+      "y": 0.823120348954951,
+      "lon": 103.8488416560614,
+      "lat": 1.282250664264074,
+      "name_direction": "left",
+      "name_origin": null
+    },
+    "36": {
+      "id": 36,
+      "station_name": "Fort Canning",
+      "x": 0.496845705122527,
+      "y": 0.699747789008234,
+      "lon": 103.8444250315653,
+      "lat": 1.292830275945718,
+      "name_direction": "left",
+      "name_origin": null
+    },
+    "37": {
+      "id": 37,
+      "station_name": "Bencoolen",
+      "x": 0.62776301249062,
+      "y": 0.687314895370193,
+      "lon": 103.8492717038725,
+      "lat": 1.297699117654433,
+      "name_direction": "top;left",
+      "name_origin": null
+    },
+    "38": {
+      "id": 38,
+      "station_name": "Jalan Besar",
+      "x": 0.656666833597861,
+      "y": 0.652885343757156,
+      "lon": 103.8552961254143,
+      "lat": 1.304889894129293,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "39": {
+      "id": 39,
+      "station_name": "Bendemeer",
+      "x": 0.694071778560173,
+      "y": 0.61176115710825,
+      "lon": 103.8630740059371,
+      "lat": 1.31385250562225,
+      "name_direction": "left",
+      "name_origin": null
+    },
+    "40": {
+      "id": 40,
+      "station_name": "Geylang Bahru",
+      "x": 0.720425262510893,
+      "y": 0.582113487663691,
+      "lon": 103.8715556075693,
+      "lat": 1.321561698740251,
+      "name_direction": "left",
+      "name_origin": null
+    },
+    "41": {
+      "id": 41,
+      "station_name": "Mattar",
+      "x": 0.74762885884712,
+      "y": 0.549596688918044,
+      "lon": 103.8837483873128,
+      "lat": 1.326463522167072,
+      "name_direction": "left",
+      "name_origin": null
+    },
+    "42": {
+      "id": 42,
+      "station_name": "Ubi",
+      "x": 0.807136725832616,
+      "y": 0.484563091426752,
+      "lon": 103.8985855709163,
+      "lat": 1.329830770674731,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "43": {
+      "id": 43,
+      "station_name": "Kaki Bukit",
+      "x": 0.836040546939857,
+      "y": 0.450133539813714,
+      "lon": 103.9091462762628,
+      "lat": 1.334921890342718,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "44": {
+      "id": 44,
+      "station_name": "Bedok North",
+      "x": 0.862394030890577,
+      "y": 0.42144224680285,
+      "lon": 103.9178105260292,
+      "lat": 1.334422576551513,
+      "name_direction": "left",
+      "name_origin": null
+    },
+    "45": {
+      "id": 45,
+      "station_name": "Bedok Reservoir",
+      "x": 0.912550661635496,
+      "y": 0.409965729598504,
+      "lon": 103.9334871898551,
+      "lat": 1.336554903328631,
+      "name_direction": "top",
+      "name_origin": null
+    },
+    "46": {
+      "id": 46,
+      "station_name": "Tampines West",
+      "x": 0.961857179994907,
+      "y": 0.409965729598504,
+      "lon": 103.9389485037816,
+      "lat": 1.344999197514483,
+      "name_direction": "top",
+      "name_origin": null
+    },
+    "47": {
+      "id": 47,
+      "station_name": "Tampines East",
+      "x": 1.06047021671373,
+      "y": 0.437700646175673,
+      "lon": 103.9426536818783,
+      "lat": 1.354193927606422,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "48": {
+      "id": 48,
+      "station_name": "Upper Changi",
+      "x": 1.06047021671373,
+      "y": 0.466391939186538,
+      "lon": 103.9610430807089,
+      "lat": 1.340840474064327,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "49": {
+      "id": 49,
+      "station_name": "Expo",
+      "x": 1.06047021671373,
+      "y": 0.511341631570225,
+      "lon": 103.9621610218642,
+      "lat": 1.335950971715691,
+      "name_direction": "top;left",
+      "name_origin": null
+    },
+    "50": {
+      "id": 50,
+      "station_name": "Stevens",
+      "x": 0.425436264739932,
+      "y": 0.474999327089797,
+      "lon": 103.8263225771446,
+      "lat": 1.320937743414412,
+      "name_direction": "bottom;right",
+      "name_origin": null
+    },
+    "51": {
+      "id": 51,
+      "station_name": "Pasir Ris",
+      "x": 1.00521291165576,
+      "y": 0.361190531480035,
+      "lon": 103.9491369403491,
+      "lat": 1.372886236352008,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "52": {
+      "id": 52,
+      "station_name": "Simei",
+      "x": 1.00351268688475,
+      "y": 0.438657022609369,
+      "lon": 103.953818676297,
+      "lat": 1.342661794533708,
+      "name_direction": "left",
+      "name_origin": null
+    },
+    "53": {
+      "id": 53,
+      "station_name": "Bedok",
+      "x": 0.921051785490567,
+      "y": 0.462566433451756,
+      "lon": 103.9294042796889,
+      "lat": 1.32407464586546,
+      "name_direction": "bottom",
+      "name_origin": null
+    },
+    "54": {
+      "id": 54,
+      "station_name": "Kembangan",
+      "x": 0.863244143276084,
+      "y": 0.496995985064793,
+      "lon": 103.9128992887463,
+      "lat": 1.321152108055446,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "55": {
+      "id": 55,
+      "station_name": "Eunos",
+      "x": 0.828389535470293,
+      "y": 0.536207418846308,
+      "lon": 103.9032151869783,
+      "lat": 1.319529918801268,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "56": {
+      "id": 56,
+      "station_name": "Aljunied",
+      "x": 0.757830207473205,
+      "y": 0.618455792144119,
+      "lon": 103.8824728877824,
+      "lat": 1.316487930304078,
+      "name_direction": "left",
+      "name_origin": null
+    },
+    "57": {
+      "id": 57,
+      "station_name": "Kallang",
+      "x": 0.731476723522485,
+      "y": 0.647147085154983,
+      "lon": 103.8715870758614,
+      "lat": 1.311781770543804,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "58": {
+      "id": 58,
+      "station_name": "Lavender",
+      "x": 0.704273127186258,
+      "y": 0.678707507466934,
+      "lon": 103.8630430629033,
+      "lat": 1.307169460472736,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "59": {
+      "id": 59,
+      "station_name": "Tanjong Pagar",
+      "x": 0.501096267050063,
+      "y": 0.845117006929947,
+      "lon": 103.8469275802349,
+      "lat": 1.27737948810714,
+      "name_direction": "left",
+      "name_origin": null
+    },
+    "60": {
+      "id": 60,
+      "station_name": "Tiong Bahru",
+      "x": 0.415234916113847,
+      "y": 0.75139211642779,
+      "lon": 103.8269905951461,
+      "lat": 1.285759455898818,
+      "name_direction": "left",
+      "name_origin": null
+    },
+    "61": {
+      "id": 61,
+      "station_name": "Redhill",
+      "x": 0.388881432163127,
+      "y": 0.720788070549535,
+      "lon": 103.8169944585527,
+      "lat": 1.289370704673515,
+      "name_direction": "left",
+      "name_origin": null
+    },
+    "62": {
+      "id": 62,
+      "station_name": "Queenstown",
+      "x": 0.362527948212407,
+      "y": 0.691140401104975,
+      "lon": 103.805584729896,
+      "lat": 1.295446256070099,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "63": {
+      "id": 63,
+      "station_name": "Commonwealth",
+      "x": 0.337874689032701,
+      "y": 0.666274613828893,
+      "lon": 103.7987785726048,
+      "lat": 1.302077045803189,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "64": {
+      "id": 64,
+      "station_name": "Dover",
+      "x": 0.257964124795035,
+      "y": 0.638539697251724,
+      "lon": 103.7783047152878,
+      "lat": 1.31141543344877,
+      "name_direction": "bottom",
+      "name_origin": null
+    },
+    "65": {
+      "id": 65,
+      "station_name": "Clementi",
+      "x": 0.219709067447215,
+      "y": 0.639496073685419,
+      "lon": 103.7655701161836,
+      "lat": 1.314078414345001,
+      "name_direction": "bottom",
+      "name_origin": null
+    },
+    "66": {
+      "id": 66,
+      "station_name": "Chinese Garden",
+      "x": 0.116845468800857,
+      "y": 0.638539697251724,
+      "lon": 103.733393135763,
+      "lat": 1.341565826332578,
+      "name_direction": "bottom",
+      "name_origin": null
+    },
+    "67": {
+      "id": 67,
+      "station_name": "Lakeside",
+      "x": 0.0743398495255031,
+      "y": 0.638539697251724,
+      "lon": 103.720448529393,
+      "lat": 1.343983341262197,
+      "name_direction": "bottom",
+      "name_origin": null
+    },
+    "68": {
+      "id": 68,
+      "station_name": "Boon Lay",
+      "x": 0.0343845674066698,
+      "y": 0.591677252000645,
+      "lon": 103.7061455479667,
+      "lat": 1.338420695657893,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "69": {
+      "id": 69,
+      "station_name": "Pioneer",
+      "x": 0.0343845674066698,
+      "y": 0.553422194652826,
+      "lon": 103.6971553734113,
+      "lat": 1.33734462692044,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "70": {
+      "id": 70,
+      "station_name": "Joo Koon",
+      "x": 0.0343845674066698,
+      "y": 0.517079890172398,
+      "lon": 103.6785207090113,
+      "lat": 1.327502084458654,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "71": {
+      "id": 71,
+      "station_name": "Gul Circle",
+      "x": 0.0352346797921769,
+      "y": 0.475955703523492,
+      "lon": 103.6604441438593,
+      "lat": 1.31903226656851,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "72": {
+      "id": 72,
+      "station_name": "Tuas Crescent",
+      "x": 0.0343845674066698,
+      "y": 0.438657022609369,
+      "lon": 103.6489587412671,
+      "lat": 1.320763817112224,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "73": {
+      "id": 73,
+      "station_name": "Tuas West Road",
+      "x": 0.0343845674066698,
+      "y": 0.402314718128941,
+      "lon": 103.6392843447087,
+      "lat": 1.329872424139264,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "74": {
+      "id": 74,
+      "station_name": "Tuas Link",
+      "x": 0.0343845674066698,
+      "y": 0.363103284347426,
+      "lon": 103.6372457200215,
+      "lat": 1.340426899205142,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "75": {
+      "id": 75,
+      "station_name": "Tanah Merah",
+      "x": 0.989060776331134,
+      "y": 0.46161005701806,
+      "lon": 103.9457230415822,
+      "lat": 1.327061275814356,
+      "name_direction": "bottom",
+      "name_origin": null
+    },
+    "76": {
+      "id": 76,
+      "station_name": "Tampines",
+      "x": 1.00521291165576,
+      "y": 0.393707330225681,
+      "lon": 103.9426536818783,
+      "lat": 1.354193927606422,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "77": {
+      "id": 77,
+      "station_name": "Bugis",
+      "x": 0.673669081308003,
+      "y": 0.71122430621258,
+      "lon": 103.8568906548671,
+      "lat": 1.29907884888673,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "78": {
+      "id": 78,
+      "station_name": "Clarke Quay",
+      "x": 0.518098514760205,
+      "y": 0.722700823416926,
+      "lon": 103.846665833855,
+      "lat": 1.289383851872467,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "79": {
+      "id": 79,
+      "station_name": "Farrer Park",
+      "x": 0.570805482661644,
+      "y": 0.554378571086522,
+      "lon": 103.8547637677557,
+      "lat": 1.313543965975699,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "80": {
+      "id": 80,
+      "station_name": "Boon Keng",
+      "x": 0.569955370276137,
+      "y": 0.513254384437616,
+      "lon": 103.8607068332875,
+      "lat": 1.317914816472307,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "81": {
+      "id": 81,
+      "station_name": "Potong Pasir",
+      "x": 0.593758517070336,
+      "y": 0.47213019778871,
+      "lon": 103.8689664447029,
+      "lat": 1.33280135224287,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "82": {
+      "id": 82,
+      "station_name": "Woodleigh",
+      "x": 0.626062787719605,
+      "y": 0.432918764007196,
+      "lon": 103.8710538041579,
+      "lat": 1.339867219941902,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "83": {
+      "id": 83,
+      "station_name": "Kovan",
+      "x": 0.692371553789159,
+      "y": 0.357365025745253,
+      "lon": 103.8847217321222,
+      "lat": 1.360205623063266,
+      "name_direction": "left",
+      "name_origin": null
+    },
+    "84": {
+      "id": 84,
+      "station_name": "Hougang",
+      "x": 0.717874925354371,
+      "y": 0.329630109168084,
+      "lon": 103.8929724009716,
+      "lat": 1.371946116552726,
+      "name_direction": "left",
+      "name_origin": null
+    },
+    "85": {
+      "id": 85,
+      "station_name": "Buangkok",
+      "x": 0.740827959763063,
+      "y": 0.302851569024611,
+      "lon": 103.8928838367306,
+      "lat": 1.383409790989895,
+      "name_direction": "left",
+      "name_origin": null
+    },
+    "86": {
+      "id": 86,
+      "station_name": "Sengkang",
+      "x": 0.765481218942769,
+      "y": 0.276073028881137,
+      "lon": 103.8957054566102,
+      "lat": 1.392370843631531,
+      "name_direction": "left",
+      "name_origin": null
+    },
+    "87": {
+      "id": 87,
+      "station_name": "Serangoon",
+      "x": 0.661767507910903,
+      "y": 0.39179457735829,
+      "lon": 103.873546495734,
+      "lat": 1.349727699514359,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "88": {
+      "id": 88,
+      "station_name": "HarbourFront",
+      "x": 0.441588400064566,
+      "y": 0.889110322879939,
+      "lon": 103.8225316516256,
+      "lat": 1.265259883734691,
+      "name_direction": "bottom",
+      "name_origin": null
+    },
+    "89": {
+      "id": 89,
+      "station_name": "Chinatown",
+      "x": 0.499396042279049,
+      "y": 0.744697481391922,
+      "lon": 103.8444585417297,
+      "lat": 1.284736083637029,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "90": {
+      "id": 90,
+      "station_name": "Little India",
+      "x": 0.571655595047152,
+      "y": 0.596459134169123,
+      "lon": 103.8483043991358,
+      "lat": 1.307683536558851,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "91": {
+      "id": 91,
+      "station_name": "Outram Park",
+      "x": 0.444138737221088,
+      "y": 0.781996162306045,
+      "lon": 103.8403867870957,
+      "lat": 1.280213353869118,
+      "name_direction": "left",
+      "name_origin": 108
+    },
+    "92": {
+      "id": 92,
+      "station_name": "Punggol",
+      "x": 0.824989085928265,
+      "y": 0.208170302088758,
+      "lon": 103.9023059966562,
+      "lat": 1.405339576226845,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "93": {
+      "id": 93,
+      "station_name": "Bukit Batok",
+      "x": 0.164451762389254,
+      "y": 0.554378571086522,
+      "lon": 103.7497665649307,
+      "lat": 1.349520060732741,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "94": {
+      "id": 94,
+      "station_name": "Bukit Gombak",
+      "x": 0.163601650003747,
+      "y": 0.49125772646262,
+      "lon": 103.752092995698,
+      "lat": 1.358695261269094,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "95": {
+      "id": 95,
+      "station_name": "Yew Tee",
+      "x": 0.164451762389254,
+      "y": 0.34110662637243,
+      "lon": 103.7473298800346,
+      "lat": 1.398067768060026,
+      "name_direction": "left",
+      "name_origin": null
+    },
+    "96": {
+      "id": 96,
+      "station_name": "Kranji",
+      "x": 0.163601650003747,
+      "y": 0.267465640977878,
+      "lon": 103.7619406060964,
+      "lat": 1.424852644661057,
+      "name_direction": "left",
+      "name_origin": null
+    },
+    "97": {
+      "id": 97,
+      "station_name": "Marsiling",
+      "x": 0.197606145424031,
+      "y": 0.183304514812676,
+      "lon": 103.7738204510363,
+      "lat": 1.432469522400065,
+      "name_direction": "left",
+      "name_origin": null
+    },
+    "98": {
+      "id": 98,
+      "station_name": "Admiralty",
+      "x": 0.342975363345744,
+      "y": 0.165133362572462,
+      "lon": 103.8005424581603,
+      "lat": 1.440596285657938,
+      "name_direction": "top",
+      "name_origin": null
+    },
+    "99": {
+      "id": 99,
+      "station_name": "Sembawang",
+      "x": 0.392281881705155,
+      "y": 0.165133362572462,
+      "lon": 103.8201097357584,
+      "lat": 1.448837319433129,
+      "name_direction": "top",
+      "name_origin": null
+    },
+    "100": {
+      "id": 100,
+      "station_name": "Canberra",
+      "x": 0.444138737221088,
+      "y": 0.167046115439853,
+      "lon": 103.8292546439475,
+      "lat": 1.443511338844814,
+      "name_direction": "top",
+      "name_origin": null
+    },
+    "101": {
+      "id": 101,
+      "station_name": "Yishun",
+      "x": 0.496845705122527,
+      "y": 0.185217267680067,
+      "lon": 103.8347836031844,
+      "lat": 1.429397167315948,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "102": {
+      "id": 102,
+      "station_name": "Khatib",
+      "x": 0.524049301458754,
+      "y": 0.222515948594191,
+      "lon": 103.8332310200385,
+      "lat": 1.417869037116861,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "103": {
+      "id": 103,
+      "station_name": "Yio Chu Kang",
+      "x": 0.533400537699332,
+      "y": 0.265552888110487,
+      "lon": 103.8446457604343,
+      "lat": 1.381953621306049,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "104": {
+      "id": 104,
+      "station_name": "Ang Mo Kio",
+      "x": 0.532550425313825,
+      "y": 0.310502580494175,
+      "lon": 103.8498245724797,
+      "lat": 1.369882375268169,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "105": {
+      "id": 105,
+      "station_name": "Braddell",
+      "x": 0.531700312928318,
+      "y": 0.393707330225681,
+      "lon": 103.847440830591,
+      "lat": 1.340672163943169,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "106": {
+      "id": 106,
+      "station_name": "Toa Payoh",
+      "x": 0.531700312928318,
+      "y": 0.435787893308282,
+      "lon": 103.8477238043139,
+      "lat": 1.332376442030206,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "107": {
+      "id": 107,
+      "station_name": "Novena",
+      "x": 0.509597390905134,
+      "y": 0.483606714993056,
+      "lon": 103.8433397334763,
+      "lat": 1.31989588603478,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "108": {
+      "id": 108,
+      "station_name": "Somerset",
+      "x": 0.47559289548485,
+      "y": 0.629932309348464,
+      "lon": 103.8387655842814,
+      "lat": 1.300436220589932,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "109": {
+      "id": 109,
+      "station_name": "Marina South Pier",
+      "x": 0.654966608826847,
+      "y": 0.927365380227758,
+      "lon": 103.8615038787278,
+      "lat": 1.273574804485931,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "110": {
+      "id": 110,
+      "station_name": "Choa Chu Kang",
+      "x": 0.16275153761824,
+      "y": 0.415703988200677,
+      "lon": 103.7445177987706,
+      "lat": 1.385736185403125,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "111": {
+      "id": 111,
+      "station_name": "Bishan",
+      "x": 0.530850200542811,
+      "y": 0.360234155046339,
+      "lon": 103.8502010819649,
+      "lat": 1.351053219933295,
+      "name_direction": "top;right",
+      "name_origin": null
+    },
+    "112": {
+      "id": 112,
+      "station_name": "Newton",
+      "x": 0.476443007870357,
+      "y": 0.518036266606093,
+      "lon": 103.8382423816355,
+      "lat": 1.313617269149807,
+      "name_direction": "bottom",
+      "name_origin": null
+    },
+    "113": {
+      "id": 113,
+      "station_name": "Jurong East",
+      "x": 0.163601650003747,
+      "y": 0.638539697251724,
+      "lon": 103.7426401629826,
+      "lat": 1.332526235648167,
+      "name_direction": "bottom",
+      "name_origin": null
+    },
+    "114": {
+      "id": 114,
+      "station_name": "City Hall",
+      "x": 0.604809978081928,
+      "y": 0.783908915173436,
+      "lon": 103.8518023338091,
+      "lat": 1.293454825951323,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "115": {
+      "id": 115,
+      "station_name": "Raffles Place",
+      "x": 0.605660090467435,
+      "y": 0.824076725388647,
+      "lon": 103.851621715866,
+      "lat": 1.285258281201247,
+      "name_direction": "bottom;right",
+      "name_origin": 138
+    },
+    "116": {
+      "id": 116,
+      "station_name": "Dhoby Ghaut",
+      "x": 0.520648851916726,
+      "y": 0.680620260334325,
+      "lon": 103.8467879717855,
+      "lat": 1.298445092048172,
+      "name_direction": "top",
+      "name_origin": 141
+    },
+    "117": {
+      "id": 117,
+      "station_name": "Woodlands",
+      "x": 0.286017833516769,
+      "y": 0.166089739006157,
+      "lon": 103.7865080837622,
+      "lat": 1.436673114687528,
+      "name_direction": "top;left",
+      "name_origin": null
+    },
+    "118": {
+      "id": 118,
+      "station_name": "Orchard",
+      "x": 0.444138737221088,
+      "y": 0.583069864097386,
+      "lon": 103.8306630989529,
+      "lat": 1.302857614748984,
+      "name_direction": "right",
+      "name_origin": 126
+    },
+    "119": {
+      "id": 119,
+      "station_name": "Marina Bay",
+      "x": 0.604809978081928,
+      "y": 0.888153946446244,
+      "lon": 103.8544700329541,
+      "lat": 1.277353032977926,
+      "name_direction": "bottom;left",
+      "name_origin": null
+    },
+    "120": {
+      "id": 120,
+      "station_name": "Sentosa",
+      "x": 0.452639861076159,
+      "y": 0.995268107020137,
+      "lon": 103.820968627929,
+      "lat": 1.25555920600891,
+      "name_direction": "left",
+      "name_origin": null
+    },
+    "121": {
+      "id": 121,
+      "station_name": "Woodlands North",
+      "x": 0.248612888554457,
+      "y": 0.124009175923556,
+      "lon": 103.7854290806745,
+      "lat": 1.447936502496506,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "122": {
+      "id": 122,
+      "station_name": "Woodlands South",
+      "x": 0.311521205081981,
+      "y": 0.194781032017022,
+      "lon": 103.7943652110204,
+      "lat": 1.425843386909275,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "123": {
+      "id": 123,
+      "station_name": "Springleaf",
+      "x": 0.333624127105166,
+      "y": 0.222515948594191,
+      "lon": 103.8183906071381,
+      "lat": 1.397820804057506,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "124": {
+      "id": 124,
+      "station_name": "Lentor",
+      "x": 0.357427273899364,
+      "y": 0.250250865171359,
+      "lon": 103.8358234520238,
+      "lat": 1.385890990086842,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "125": {
+      "id": 125,
+      "station_name": "Mayflower",
+      "x": 0.38208053307907,
+      "y": 0.277985781748528,
+      "lon": 103.8367959780974,
+      "lat": 1.371276322901538,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "126": {
+      "id": 126,
+      "station_name": "Bright Hill",
+      "x": 0.405033567487762,
+      "y": 0.305720698325697,
+      "lon": 103.8336354139939,
+      "lat": 1.364037182165615,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "127": {
+      "id": 127,
+      "station_name": "Upper Thomson",
+      "x": 0.423736039968918,
+      "y": 0.354495896444167,
+      "lon": 103.8318330090042,
+      "lat": 1.355736574706553,
+      "name_direction": "left",
+      "name_origin": null
+    },
+    "129": {
+      "id": 129,
+      "station_name": "Napier",
+      "x": 0.425436264739932,
+      "y": 0.516123513738703,
+      "lon": 103.8194837777762,
+      "lat": 1.306935987922338,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "130": {
+      "id": 130,
+      "station_name": "Orchard Boulevard",
+      "x": 0.424586152354425,
+      "y": 0.55055306535174,
+      "lon": 103.8306630989529,
+      "lat": 1.302857614748984,
+      "name_direction": "left",
+      "name_origin": null
+    },
+    "131": {
+      "id": 131,
+      "station_name": "Great World",
+      "x": 0.424586152354425,
+      "y": 0.624194050746292,
+      "lon": 103.833405504371,
+      "lat": 1.296552594564735,
+      "name_direction": "left",
+      "name_origin": null
+    },
+    "132": {
+      "id": 132,
+      "station_name": "Havelock",
+      "x": 0.425436264739932,
+      "y": 0.664361860961502,
+      "lon": 103.8333695202785,
+      "lat": 1.288843563353537,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "133": {
+      "id": 133,
+      "station_name": "Maxwell",
+      "x": 0.513847952832669,
+      "y": 0.807818326015823,
+      "lon": 103.8429163055429,
+      "lat": 1.280191522380937,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "134": {
+      "id": 134,
+      "station_name": "Shenton Way",
+      "x": 0.56910525789063,
+      "y": 0.872851923507116,
+      "lon": 103.8518357073815,
+      "lat": 1.277462058335655,
+      "name_direction": "left",
+      "name_origin": null
+    },
+    "135": {
+      "id": 135,
+      "station_name": "Gardens by the Bay",
+      "x": 0.78248346665291,
+      "y": 0.854680771266902,
+      "lon": 103.867154122142,
+      "lat": 1.278303439968121,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "136": {
+      "id": 136,
+      "station_name": "Tanjong Rhu",
+      "x": 0.842841446023914,
+      "y": 0.787734420908218,
+      "lon": 103.8734779049167,
+      "lat": 1.296459488281608,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "137": {
+      "id": 137,
+      "station_name": "Katong Park",
+      "x": 0.866644592818113,
+      "y": 0.762868633632136,
+      "lon": 103.885069217605,
+      "lat": 1.298379682791139,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "138": {
+      "id": 138,
+      "station_name": "Tanjong Katong",
+      "x": 0.888747514841297,
+      "y": 0.735133717054967,
+      "lon": 103.897045454194,
+      "lat": 1.299038692777171,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "139": {
+      "id": 139,
+      "station_name": "Marine Parade",
+      "x": 0.912550661635496,
+      "y": 0.708355176911494,
+      "lon": 103.9059103666293,
+      "lat": 1.302093293643494,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "140": {
+      "id": 140,
+      "station_name": "Marine Terrace",
+      "x": 0.936353808429694,
+      "y": 0.680620260334325,
+      "lon": 103.9150201398566,
+      "lat": 1.306895321743126,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "141": {
+      "id": 141,
+      "station_name": "Siglap",
+      "x": 0.961857179994907,
+      "y": 0.652885343757156,
+      "lon": 103.9287926248893,
+      "lat": 1.308850315558458,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "142": {
+      "id": 142,
+      "station_name": "Bayshore",
+      "x": 0.98140976486157,
+      "y": 0.63088868578216,
+      "lon": 103.9412617256652,
+      "lat": 1.311898718691735,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "143": {
+      "id": 143,
+      "station_name": "Bedok South",
+      "x": 1.00351268688475,
+      "y": 0.606979274939773,
+      "lon": 103.9294042796889,
+      "lat": 1.32407464586546,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "144": {
+      "id": 144,
+      "station_name": "Sungei Bedok",
+      "x": 1.03071628322098,
+      "y": 0.576375229061518,
+      "lon": 103.9294042796889,
+      "lat": 1.32407464586546,
+      "name_direction": "bottom;right",
+      "name_origin": null
+    },
+    "145": {
+      "id": 145,
+      "station_name": "Caldecott",
+      "x": 0.425436264739932,
+      "y": 0.399445588827854,
+      "lon": 103.8403874992376,
+      "lat": 1.338259729941808,
+      "name_direction": "left",
+      "name_origin": null
+    },
+    "146": {
+      "id": 146,
+      "station_name": "Xilin",
+      "x": 1.05555,
+      "y": 0.54,
+      "lon": 103.9649,
+      "lat": 1.3289,
+      "name_direction": "right",
+      "name_origin": null
+    },
+    "147": {
+      "id": 147,
+      "station_name": "Hume",
+      "x": 0.249463000939964,
+      "y": 0.383333,
+      "lon": 103.7692,
+      "lat": 1.3544,
+      "name_direction": "right",
+      "name_origin": null
+    }
+  },
+  "station_lines": {
+    "1": {
+      "id": 1,
+      "station_id": 1,
+      "line_id": 4,
+      "station_code": "DT1",
+      "connections": [
+        {
+          "cur_station_line": 1,
+          "next_station_line": 33,
+          "line_id": 4,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "2": {
+      "id": 2,
+      "station_id": 2,
+      "line_id": 5,
+      "station_code": "CC2",
+      "connections": [
+        {
+          "cur_station_line": 2,
+          "next_station_line": 3,
+          "line_id": 5,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "3": {
+      "id": 3,
+      "station_id": 3,
+      "line_id": 5,
+      "station_code": "CC3",
+      "connections": [
+        {
+          "cur_station_line": 3,
+          "next_station_line": 21,
+          "line_id": 5,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "4": {
+      "id": 4,
+      "station_id": 4,
+      "line_id": 5,
+      "station_code": "CC5",
+      "connections": [
+        {
+          "cur_station_line": 4,
+          "next_station_line": 5,
+          "line_id": 5,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "5": {
+      "id": 5,
+      "station_id": 5,
+      "line_id": 5,
+      "station_code": "CC6",
+      "connections": [
+        {
+          "cur_station_line": 5,
+          "next_station_line": 6,
+          "line_id": 5,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "6": {
+      "id": 6,
+      "station_id": 6,
+      "line_id": 5,
+      "station_code": "CC7",
+      "connections": [
+        {
+          "cur_station_line": 6,
+          "next_station_line": 7,
+          "line_id": 5,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "7": {
+      "id": 7,
+      "station_id": 7,
+      "line_id": 5,
+      "station_code": "CC8",
+      "connections": [
+        {
+          "cur_station_line": 7,
+          "next_station_line": 27,
+          "line_id": 5,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "8": {
+      "id": 8,
+      "station_id": 8,
+      "line_id": 5,
+      "station_code": "CC11",
+      "connections": [
+        {
+          "cur_station_line": 8,
+          "next_station_line": 9,
+          "line_id": 5,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "9": {
+      "id": 9,
+      "station_id": 9,
+      "line_id": 5,
+      "station_code": "CC12",
+      "connections": [
+        {
+          "cur_station_line": 9,
+          "next_station_line": 98,
+          "line_id": 5,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "10": {
+      "id": 10,
+      "station_id": 10,
+      "line_id": 5,
+      "station_code": "CC14",
+      "connections": [
+        {
+          "cur_station_line": 10,
+          "next_station_line": 130,
+          "line_id": 5,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "11": {
+      "id": 11,
+      "station_id": 11,
+      "line_id": 5,
+      "station_code": "CC16",
+      "connections": [
+        {
+          "cur_station_line": 11,
+          "next_station_line": 174,
+          "line_id": 5,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "12": {
+      "id": 12,
+      "station_id": 12,
+      "line_id": 5,
+      "station_code": "CC20",
+      "connections": [
+        {
+          "cur_station_line": 12,
+          "next_station_line": 13,
+          "line_id": 5,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "13": {
+      "id": 13,
+      "station_id": 13,
+      "line_id": 5,
+      "station_code": "CC21",
+      "connections": [
+        {
+          "cur_station_line": 13,
+          "next_station_line": 29,
+          "line_id": 5,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "14": {
+      "id": 14,
+      "station_id": 14,
+      "line_id": 5,
+      "station_code": "CC23",
+      "connections": [
+        {
+          "cur_station_line": 14,
+          "next_station_line": 15,
+          "line_id": 5,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "15": {
+      "id": 15,
+      "station_id": 15,
+      "line_id": 5,
+      "station_code": "CC24",
+      "connections": [
+        {
+          "cur_station_line": 15,
+          "next_station_line": 16,
+          "line_id": 5,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "16": {
+      "id": 16,
+      "station_id": 16,
+      "line_id": 5,
+      "station_code": "CC25",
+      "connections": [
+        {
+          "cur_station_line": 16,
+          "next_station_line": 17,
+          "line_id": 5,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "17": {
+      "id": 17,
+      "station_id": 17,
+      "line_id": 5,
+      "station_code": "CC26",
+      "connections": [
+        {
+          "cur_station_line": 17,
+          "next_station_line": 18,
+          "line_id": 5,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "18": {
+      "id": 18,
+      "station_id": 18,
+      "line_id": 5,
+      "station_code": "CC27",
+      "connections": [
+        {
+          "cur_station_line": 18,
+          "next_station_line": 19,
+          "line_id": 5,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "19": {
+      "id": 19,
+      "station_id": 19,
+      "line_id": 5,
+      "station_code": "CC28",
+      "connections": [
+        {
+          "cur_station_line": 19,
+          "next_station_line": 100,
+          "line_id": 5,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "20": {
+      "id": 20,
+      "station_id": 20,
+      "line_id": 4,
+      "station_code": "DT15",
+      "connections": [
+        {
+          "cur_station_line": 20,
+          "next_station_line": 30,
+          "line_id": 4,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 21,
+          "position": "left",
+          "offset": 1,
+          "separate": true
+        }
+      ]
+    },
+    "21": {
+      "id": 21,
+      "station_id": 20,
+      "line_id": 5,
+      "station_code": "CC4",
+      "connections": [
+        {
+          "cur_station_line": 21,
+          "next_station_line": 4,
+          "line_id": 5,
+          "connection_style": "solid"
+        },
+        {
+          "cur_station_line": 21,
+          "next_station_line": 4,
+          "line_id": 5,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 20,
+          "position": "right",
+          "offset": 1,
+          "separate": true
+        }
+      ]
+    },
+    "22": {
+      "id": 22,
+      "station_id": 21,
+      "line_id": 4,
+      "station_code": "DT26",
+      "connections": [
+        {
+          "cur_station_line": 22,
+          "next_station_line": 48,
+          "line_id": 4,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 23,
+          "position": "left",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    },
+    "23": {
+      "id": 23,
+      "station_id": 21,
+      "line_id": 5,
+      "station_code": "CC10",
+      "connections": [
+        {
+          "cur_station_line": 23,
+          "next_station_line": 8,
+          "line_id": 5,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 22,
+          "position": "right",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    },
+    "24": {
+      "id": 24,
+      "station_id": 22,
+      "line_id": 4,
+      "station_code": "DT9",
+      "connections": [
+        {
+          "cur_station_line": 24,
+          "next_station_line": 58,
+          "line_id": 4,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 25,
+          "position": "right",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    },
+    "25": {
+      "id": 25,
+      "station_id": 22,
+      "line_id": 5,
+      "station_code": "CC19",
+      "connections": [
+        {
+          "cur_station_line": 25,
+          "next_station_line": 12,
+          "line_id": 5,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 24,
+          "position": "left",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    },
+    "26": {
+      "id": 26,
+      "station_id": 23,
+      "line_id": 3,
+      "station_code": "EW8",
+      "connections": [
+        {
+          "cur_station_line": 26,
+          "next_station_line": 64,
+          "line_id": 3,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "27": {
+      "id": 27,
+      "station_id": 23,
+      "line_id": 5,
+      "station_code": "CC9",
+      "connections": [
+        {
+          "cur_station_line": 27,
+          "next_station_line": 23,
+          "line_id": 5,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "28": {
+      "id": 28,
+      "station_id": 24,
+      "line_id": 3,
+      "station_code": "EW21",
+      "connections": [
+        {
+          "cur_station_line": 28,
+          "next_station_line": 72,
+          "line_id": 3,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 29,
+          "position": "right",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    },
+    "29": {
+      "id": 29,
+      "station_id": 24,
+      "line_id": 5,
+      "station_code": "CC22",
+      "connections": [
+        {
+          "cur_station_line": 29,
+          "next_station_line": 14,
+          "line_id": 5,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 28,
+          "position": "left",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    },
+    "30": {
+      "id": 30,
+      "station_id": 25,
+      "line_id": 4,
+      "station_code": "DT16",
+      "connections": [
+        {
+          "cur_station_line": 30,
+          "next_station_line": 40,
+          "line_id": 4,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 31,
+          "position": "left",
+          "offset": 1,
+          "separate": true
+        }
+      ]
+    },
+    "31": {
+      "id": 31,
+      "station_id": 25,
+      "line_id": 5,
+      "station_code": "CE1",
+      "connections": [
+        {
+          "cur_station_line": 31,
+          "next_station_line": 21,
+          "line_id": 5,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 30,
+          "position": "right",
+          "offset": 1,
+          "separate": true
+        }
+      ]
+    },
+    "32": {
+      "id": 32,
+      "station_id": 26,
+      "line_id": 7,
+      "station_code": "CG2",
+      "connections": [],
+      "joins": []
+    },
+    "33": {
+      "id": 33,
+      "station_id": 27,
+      "line_id": 4,
+      "station_code": "DT2",
+      "connections": [
+        {
+          "cur_station_line": 33,
+          "next_station_line": 34,
+          "line_id": 4,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "34": {
+      "id": 34,
+      "station_id": 28,
+      "line_id": 4,
+      "station_code": "DT3",
+      "connections": [
+        {
+          "cur_station_line": 34,
+          "next_station_line": 176,
+          "line_id": 4,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "35": {
+      "id": 35,
+      "station_id": 29,
+      "line_id": 4,
+      "station_code": "DT5",
+      "connections": [
+        {
+          "cur_station_line": 35,
+          "next_station_line": 36,
+          "line_id": 4,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "36": {
+      "id": 36,
+      "station_id": 30,
+      "line_id": 4,
+      "station_code": "DT6",
+      "connections": [
+        {
+          "cur_station_line": 36,
+          "next_station_line": 37,
+          "line_id": 4,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "37": {
+      "id": 37,
+      "station_id": 31,
+      "line_id": 4,
+      "station_code": "DT7",
+      "connections": [
+        {
+          "cur_station_line": 37,
+          "next_station_line": 38,
+          "line_id": 4,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "38": {
+      "id": 38,
+      "station_id": 32,
+      "line_id": 4,
+      "station_code": "DT8",
+      "connections": [
+        {
+          "cur_station_line": 38,
+          "next_station_line": 24,
+          "line_id": 4,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "39": {
+      "id": 39,
+      "station_id": 33,
+      "line_id": 4,
+      "station_code": "DT13",
+      "connections": [
+        {
+          "cur_station_line": 39,
+          "next_station_line": 88,
+          "line_id": 4,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "40": {
+      "id": 40,
+      "station_id": 34,
+      "line_id": 4,
+      "station_code": "DT17",
+      "connections": [
+        {
+          "cur_station_line": 40,
+          "next_station_line": 41,
+          "line_id": 4,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "41": {
+      "id": 41,
+      "station_id": 35,
+      "line_id": 4,
+      "station_code": "DT18",
+      "connections": [
+        {
+          "cur_station_line": 41,
+          "next_station_line": 103,
+          "line_id": 4,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "42": {
+      "id": 42,
+      "station_id": 36,
+      "line_id": 4,
+      "station_code": "DT20",
+      "connections": [
+        {
+          "cur_station_line": 42,
+          "next_station_line": 43,
+          "line_id": 4,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "43": {
+      "id": 43,
+      "station_id": 37,
+      "line_id": 4,
+      "station_code": "DT21",
+      "connections": [
+        {
+          "cur_station_line": 43,
+          "next_station_line": 44,
+          "line_id": 4,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "44": {
+      "id": 44,
+      "station_id": 38,
+      "line_id": 4,
+      "station_code": "DT22",
+      "connections": [
+        {
+          "cur_station_line": 44,
+          "next_station_line": 45,
+          "line_id": 4,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "45": {
+      "id": 45,
+      "station_id": 39,
+      "line_id": 4,
+      "station_code": "DT23",
+      "connections": [
+        {
+          "cur_station_line": 45,
+          "next_station_line": 46,
+          "line_id": 4,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "46": {
+      "id": 46,
+      "station_id": 40,
+      "line_id": 4,
+      "station_code": "DT24",
+      "connections": [
+        {
+          "cur_station_line": 46,
+          "next_station_line": 47,
+          "line_id": 4,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "47": {
+      "id": 47,
+      "station_id": 41,
+      "line_id": 4,
+      "station_code": "DT25",
+      "connections": [
+        {
+          "cur_station_line": 47,
+          "next_station_line": 22,
+          "line_id": 4,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "48": {
+      "id": 48,
+      "station_id": 42,
+      "line_id": 4,
+      "station_code": "DT27",
+      "connections": [
+        {
+          "cur_station_line": 48,
+          "next_station_line": 49,
+          "line_id": 4,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "49": {
+      "id": 49,
+      "station_id": 43,
+      "line_id": 4,
+      "station_code": "DT28",
+      "connections": [
+        {
+          "cur_station_line": 49,
+          "next_station_line": 50,
+          "line_id": 4,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "50": {
+      "id": 50,
+      "station_id": 44,
+      "line_id": 4,
+      "station_code": "DT29",
+      "connections": [
+        {
+          "cur_station_line": 50,
+          "next_station_line": 51,
+          "line_id": 4,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "51": {
+      "id": 51,
+      "station_id": 45,
+      "line_id": 4,
+      "station_code": "DT30",
+      "connections": [
+        {
+          "cur_station_line": 51,
+          "next_station_line": 52,
+          "line_id": 4,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "52": {
+      "id": 52,
+      "station_id": 46,
+      "line_id": 4,
+      "station_code": "DT31",
+      "connections": [
+        {
+          "cur_station_line": 52,
+          "next_station_line": 86,
+          "line_id": 4,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "53": {
+      "id": 53,
+      "station_id": 47,
+      "line_id": 4,
+      "station_code": "DT33",
+      "connections": [
+        {
+          "cur_station_line": 53,
+          "next_station_line": 54,
+          "line_id": 4,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "54": {
+      "id": 54,
+      "station_id": 48,
+      "line_id": 4,
+      "station_code": "DT34",
+      "connections": [
+        {
+          "cur_station_line": 54,
+          "next_station_line": 55,
+          "line_id": 4,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "55": {
+      "id": 55,
+      "station_id": 49,
+      "line_id": 4,
+      "station_code": "DT35",
+      "connections": [
+        {
+          "cur_station_line": 55,
+          "next_station_line": 175,
+          "line_id": 4,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 56,
+          "position": "right",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    },
+    "56": {
+      "id": 56,
+      "station_id": 49,
+      "line_id": 7,
+      "station_code": "CG1",
+      "connections": [
+        {
+          "cur_station_line": 56,
+          "next_station_line": 32,
+          "line_id": 7,
+          "connection_style": "double"
+        }
+      ],
+      "joins": [
+        {
+          "join": 55,
+          "position": "left",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    },
+    "57": {
+      "id": 57,
+      "station_id": 50,
+      "line_id": 1,
+      "station_code": "TE11",
+      "connections": [
+        {
+          "cur_station_line": 57,
+          "next_station_line": 156,
+          "line_id": 1,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 58,
+          "position": "right",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    },
+    "58": {
+      "id": 58,
+      "station_id": 50,
+      "line_id": 4,
+      "station_code": "DT10",
+      "connections": [
+        {
+          "cur_station_line": 58,
+          "next_station_line": 132,
+          "line_id": 4,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 57,
+          "position": "left",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    },
+    "59": {
+      "id": 59,
+      "station_id": 51,
+      "line_id": 3,
+      "station_code": "EW1",
+      "connections": [
+        {
+          "cur_station_line": 59,
+          "next_station_line": 85,
+          "line_id": 3,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "60": {
+      "id": 60,
+      "station_id": 52,
+      "line_id": 3,
+      "station_code": "EW3",
+      "connections": [
+        {
+          "cur_station_line": 60,
+          "next_station_line": 83,
+          "line_id": 3,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "61": {
+      "id": 61,
+      "station_id": 53,
+      "line_id": 3,
+      "station_code": "EW5",
+      "connections": [
+        {
+          "cur_station_line": 61,
+          "next_station_line": 62,
+          "line_id": 3,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "62": {
+      "id": 62,
+      "station_id": 54,
+      "line_id": 3,
+      "station_code": "EW6",
+      "connections": [
+        {
+          "cur_station_line": 62,
+          "next_station_line": 63,
+          "line_id": 3,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "63": {
+      "id": 63,
+      "station_id": 55,
+      "line_id": 3,
+      "station_code": "EW7",
+      "connections": [
+        {
+          "cur_station_line": 63,
+          "next_station_line": 26,
+          "line_id": 3,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "64": {
+      "id": 64,
+      "station_id": 56,
+      "line_id": 3,
+      "station_code": "EW9",
+      "connections": [
+        {
+          "cur_station_line": 64,
+          "next_station_line": 65,
+          "line_id": 3,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "65": {
+      "id": 65,
+      "station_id": 57,
+      "line_id": 3,
+      "station_code": "EW10",
+      "connections": [
+        {
+          "cur_station_line": 65,
+          "next_station_line": 66,
+          "line_id": 3,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "66": {
+      "id": 66,
+      "station_id": 58,
+      "line_id": 3,
+      "station_code": "EW11",
+      "connections": [
+        {
+          "cur_station_line": 66,
+          "next_station_line": 87,
+          "line_id": 3,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "67": {
+      "id": 67,
+      "station_id": 59,
+      "line_id": 3,
+      "station_code": "EW15",
+      "connections": [
+        {
+          "cur_station_line": 67,
+          "next_station_line": 108,
+          "line_id": 3,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "68": {
+      "id": 68,
+      "station_id": 60,
+      "line_id": 3,
+      "station_code": "EW17",
+      "connections": [
+        {
+          "cur_station_line": 68,
+          "next_station_line": 69,
+          "line_id": 3,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "69": {
+      "id": 69,
+      "station_id": 61,
+      "line_id": 3,
+      "station_code": "EW18",
+      "connections": [
+        {
+          "cur_station_line": 69,
+          "next_station_line": 70,
+          "line_id": 3,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "70": {
+      "id": 70,
+      "station_id": 62,
+      "line_id": 3,
+      "station_code": "EW19",
+      "connections": [
+        {
+          "cur_station_line": 70,
+          "next_station_line": 71,
+          "line_id": 3,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "71": {
+      "id": 71,
+      "station_id": 63,
+      "line_id": 3,
+      "station_code": "EW20",
+      "connections": [
+        {
+          "cur_station_line": 71,
+          "next_station_line": 28,
+          "line_id": 3,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "72": {
+      "id": 72,
+      "station_id": 64,
+      "line_id": 3,
+      "station_code": "EW22",
+      "connections": [
+        {
+          "cur_station_line": 72,
+          "next_station_line": 73,
+          "line_id": 3,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "73": {
+      "id": 73,
+      "station_id": 65,
+      "line_id": 3,
+      "station_code": "EW23",
+      "connections": [
+        {
+          "cur_station_line": 73,
+          "next_station_line": 134,
+          "line_id": 3,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "74": {
+      "id": 74,
+      "station_id": 66,
+      "line_id": 3,
+      "station_code": "EW25",
+      "connections": [
+        {
+          "cur_station_line": 74,
+          "next_station_line": 75,
+          "line_id": 3,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "75": {
+      "id": 75,
+      "station_id": 67,
+      "line_id": 3,
+      "station_code": "EW26",
+      "connections": [
+        {
+          "cur_station_line": 75,
+          "next_station_line": 76,
+          "line_id": 3,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "76": {
+      "id": 76,
+      "station_id": 68,
+      "line_id": 3,
+      "station_code": "EW27",
+      "connections": [
+        {
+          "cur_station_line": 76,
+          "next_station_line": 77,
+          "line_id": 3,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "77": {
+      "id": 77,
+      "station_id": 69,
+      "line_id": 3,
+      "station_code": "EW28",
+      "connections": [
+        {
+          "cur_station_line": 77,
+          "next_station_line": 78,
+          "line_id": 3,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "78": {
+      "id": 78,
+      "station_id": 70,
+      "line_id": 3,
+      "station_code": "EW29",
+      "connections": [
+        {
+          "cur_station_line": 78,
+          "next_station_line": 79,
+          "line_id": 3,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "79": {
+      "id": 79,
+      "station_id": 71,
+      "line_id": 3,
+      "station_code": "EW30",
+      "connections": [
+        {
+          "cur_station_line": 79,
+          "next_station_line": 80,
+          "line_id": 3,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "80": {
+      "id": 80,
+      "station_id": 72,
+      "line_id": 3,
+      "station_code": "EW31",
+      "connections": [
+        {
+          "cur_station_line": 80,
+          "next_station_line": 81,
+          "line_id": 3,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "81": {
+      "id": 81,
+      "station_id": 73,
+      "line_id": 3,
+      "station_code": "EW32",
+      "connections": [
+        {
+          "cur_station_line": 81,
+          "next_station_line": 82,
+          "line_id": 3,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "82": {
+      "id": 82,
+      "station_id": 74,
+      "line_id": 3,
+      "station_code": "EW33",
+      "connections": [],
+      "joins": []
+    },
+    "83": {
+      "id": 83,
+      "station_id": 75,
+      "line_id": 3,
+      "station_code": "EW4",
+      "connections": [
+        {
+          "cur_station_line": 83,
+          "next_station_line": 61,
+          "line_id": 3,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 84,
+          "position": "left",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    },
+    "84": {
+      "id": 84,
+      "station_id": 75,
+      "line_id": 7,
+      "station_code": "CG",
+      "connections": [
+        {
+          "cur_station_line": 84,
+          "next_station_line": 56,
+          "line_id": 7,
+          "connection_style": "double"
+        }
+      ],
+      "joins": [
+        {
+          "join": 83,
+          "position": "right",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    },
+    "85": {
+      "id": 85,
+      "station_id": 76,
+      "line_id": 3,
+      "station_code": "EW2",
+      "connections": [
+        {
+          "cur_station_line": 85,
+          "next_station_line": 60,
+          "line_id": 3,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "86": {
+      "id": 86,
+      "station_id": 76,
+      "line_id": 4,
+      "station_code": "DT32",
+      "connections": [
+        {
+          "cur_station_line": 86,
+          "next_station_line": 53,
+          "line_id": 4,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "87": {
+      "id": 87,
+      "station_id": 77,
+      "line_id": 3,
+      "station_code": "EW12",
+      "connections": [
+        {
+          "cur_station_line": 87,
+          "next_station_line": 136,
+          "line_id": 3,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 88,
+          "position": "left",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    },
+    "88": {
+      "id": 88,
+      "station_id": 77,
+      "line_id": 4,
+      "station_code": "DT14",
+      "connections": [
+        {
+          "cur_station_line": 88,
+          "next_station_line": 20,
+          "line_id": 4,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 87,
+          "position": "right",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    },
+    "89": {
+      "id": 89,
+      "station_id": 78,
+      "line_id": 6,
+      "station_code": "NE5",
+      "connections": [
+        {
+          "cur_station_line": 89,
+          "next_station_line": 141,
+          "line_id": 6,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "90": {
+      "id": 90,
+      "station_id": 79,
+      "line_id": 6,
+      "station_code": "NE8",
+      "connections": [
+        {
+          "cur_station_line": 90,
+          "next_station_line": 91,
+          "line_id": 6,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "91": {
+      "id": 91,
+      "station_id": 80,
+      "line_id": 6,
+      "station_code": "NE9",
+      "connections": [
+        {
+          "cur_station_line": 91,
+          "next_station_line": 92,
+          "line_id": 6,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "92": {
+      "id": 92,
+      "station_id": 81,
+      "line_id": 6,
+      "station_code": "NE10",
+      "connections": [
+        {
+          "cur_station_line": 92,
+          "next_station_line": 93,
+          "line_id": 6,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "93": {
+      "id": 93,
+      "station_id": 82,
+      "line_id": 6,
+      "station_code": "NE11",
+      "connections": [
+        {
+          "cur_station_line": 93,
+          "next_station_line": 99,
+          "line_id": 6,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "94": {
+      "id": 94,
+      "station_id": 83,
+      "line_id": 6,
+      "station_code": "NE13",
+      "connections": [
+        {
+          "cur_station_line": 94,
+          "next_station_line": 95,
+          "line_id": 6,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "95": {
+      "id": 95,
+      "station_id": 84,
+      "line_id": 6,
+      "station_code": "NE14",
+      "connections": [
+        {
+          "cur_station_line": 95,
+          "next_station_line": 96,
+          "line_id": 6,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "96": {
+      "id": 96,
+      "station_id": 85,
+      "line_id": 6,
+      "station_code": "NE15",
+      "connections": [
+        {
+          "cur_station_line": 96,
+          "next_station_line": 97,
+          "line_id": 6,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "97": {
+      "id": 97,
+      "station_id": 86,
+      "line_id": 6,
+      "station_code": "NE16",
+      "connections": [
+        {
+          "cur_station_line": 97,
+          "next_station_line": 110,
+          "line_id": 6,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "98": {
+      "id": 98,
+      "station_id": 87,
+      "line_id": 5,
+      "station_code": "CC13",
+      "connections": [
+        {
+          "cur_station_line": 98,
+          "next_station_line": 10,
+          "line_id": 5,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 99,
+          "position": "right",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    },
+    "99": {
+      "id": 99,
+      "station_id": 87,
+      "line_id": 6,
+      "station_code": "NE12",
+      "connections": [
+        {
+          "cur_station_line": 99,
+          "next_station_line": 94,
+          "line_id": 6,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 98,
+          "position": "left",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    },
+    "100": {
+      "id": 100,
+      "station_id": 88,
+      "line_id": 5,
+      "station_code": "CC29",
+      "connections": [
+        {
+          "cur_station_line": 100,
+          "next_station_line": 177,
+          "line_id": 5,
+          "connection_style": "dotted"
+        }
+      ],
+      "joins": [
+        {
+          "join": 101,
+          "position": "left",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    },
+    "101": {
+      "id": 101,
+      "station_id": 88,
+      "line_id": 6,
+      "station_code": "NE1",
+      "connections": [
+        {
+          "cur_station_line": 101,
+          "next_station_line": 109,
+          "line_id": 6,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 100,
+          "position": "right",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    },
+    "102": {
+      "id": 102,
+      "station_id": 88,
+      "line_id": 8,
+      "station_code": "STE1",
+      "connections": [
+        {
+          "cur_station_line": 102,
+          "next_station_line": 148,
+          "line_id": 8,
+          "connection_style": "dashdot"
+        }
+      ],
+      "joins": []
+    },
+    "103": {
+      "id": 103,
+      "station_id": 89,
+      "line_id": 4,
+      "station_code": "DT19",
+      "connections": [
+        {
+          "cur_station_line": 103,
+          "next_station_line": 42,
+          "line_id": 4,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 104,
+          "position": "right",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    },
+    "104": {
+      "id": 104,
+      "station_id": 89,
+      "line_id": 6,
+      "station_code": "NE4",
+      "connections": [
+        {
+          "cur_station_line": 104,
+          "next_station_line": 89,
+          "line_id": 6,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 103,
+          "position": "left",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    },
+    "105": {
+      "id": 105,
+      "station_id": 90,
+      "line_id": 4,
+      "station_code": "DT12",
+      "connections": [
+        {
+          "cur_station_line": 105,
+          "next_station_line": 39,
+          "line_id": 4,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 106,
+          "position": "right",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    },
+    "106": {
+      "id": 106,
+      "station_id": 90,
+      "line_id": 6,
+      "station_code": "NE7",
+      "connections": [
+        {
+          "cur_station_line": 106,
+          "next_station_line": 90,
+          "line_id": 6,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 105,
+          "position": "left",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    },
+    "107": {
+      "id": 107,
+      "station_id": 91,
+      "line_id": 1,
+      "station_code": "TE17",
+      "connections": [
+        {
+          "cur_station_line": 107,
+          "next_station_line": 160,
+          "line_id": 1,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 109,
+          "position": "right",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    },
+    "108": {
+      "id": 108,
+      "station_id": 91,
+      "line_id": 3,
+      "station_code": "EW16",
+      "connections": [
+        {
+          "cur_station_line": 108,
+          "next_station_line": 68,
+          "line_id": 3,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 109,
+          "position": "left",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    },
+    "109": {
+      "id": 109,
+      "station_id": 91,
+      "line_id": 6,
+      "station_code": "NE3",
+      "connections": [
+        {
+          "cur_station_line": 109,
+          "next_station_line": 104,
+          "line_id": 6,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 107,
+          "position": "middle",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    },
+    "110": {
+      "id": 110,
+      "station_id": 92,
+      "line_id": 6,
+      "station_code": "NE17",
+      "connections": [],
+      "joins": []
+    },
+    "111": {
+      "id": 111,
+      "station_id": 93,
+      "line_id": 2,
+      "station_code": "NS2",
+      "connections": [
+        {
+          "cur_station_line": 111,
+          "next_station_line": 128,
+          "line_id": 2,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "112": {
+      "id": 112,
+      "station_id": 94,
+      "line_id": 2,
+      "station_code": "NS3",
+      "connections": [],
+      "joins": []
+    },
+    "113": {
+      "id": 113,
+      "station_id": 95,
+      "line_id": 2,
+      "station_code": "NS5",
+      "connections": [
+        {
+          "cur_station_line": 113,
+          "next_station_line": 114,
+          "line_id": 2,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "114": {
+      "id": 114,
+      "station_id": 96,
+      "line_id": 2,
+      "station_code": "NS7",
+      "connections": [
+        {
+          "cur_station_line": 114,
+          "next_station_line": 115,
+          "line_id": 2,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "115": {
+      "id": 115,
+      "station_id": 97,
+      "line_id": 2,
+      "station_code": "NS8",
+      "connections": [
+        {
+          "cur_station_line": 115,
+          "next_station_line": 143,
+          "line_id": 2,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "116": {
+      "id": 116,
+      "station_id": 98,
+      "line_id": 2,
+      "station_code": "NS10",
+      "connections": [
+        {
+          "cur_station_line": 116,
+          "next_station_line": 117,
+          "line_id": 2,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 142,
+          "position": "left",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    },
+    "117": {
+      "id": 117,
+      "station_id": 99,
+      "line_id": 2,
+      "station_code": "NS11",
+      "connections": [
+        {
+          "cur_station_line": 117,
+          "next_station_line": 118,
+          "line_id": 2,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 134,
+          "position": "left",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    },
+    "118": {
+      "id": 118,
+      "station_id": 100,
+      "line_id": 2,
+      "station_code": "NS12",
+      "connections": [
+        {
+          "cur_station_line": 118,
+          "next_station_line": 119,
+          "line_id": 2,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "119": {
+      "id": 119,
+      "station_id": 101,
+      "line_id": 2,
+      "station_code": "NS13",
+      "connections": [
+        {
+          "cur_station_line": 119,
+          "next_station_line": 120,
+          "line_id": 2,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "120": {
+      "id": 120,
+      "station_id": 102,
+      "line_id": 2,
+      "station_code": "NS14",
+      "connections": [
+        {
+          "cur_station_line": 120,
+          "next_station_line": 121,
+          "line_id": 2,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "121": {
+      "id": 121,
+      "station_id": 103,
+      "line_id": 2,
+      "station_code": "NS15",
+      "connections": [
+        {
+          "cur_station_line": 121,
+          "next_station_line": 122,
+          "line_id": 2,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "122": {
+      "id": 122,
+      "station_id": 104,
+      "line_id": 2,
+      "station_code": "NS16",
+      "connections": [
+        {
+          "cur_station_line": 122,
+          "next_station_line": 129,
+          "line_id": 2,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "123": {
+      "id": 123,
+      "station_id": 105,
+      "line_id": 2,
+      "station_code": "NS18",
+      "connections": [
+        {
+          "cur_station_line": 123,
+          "next_station_line": 124,
+          "line_id": 2,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "124": {
+      "id": 124,
+      "station_id": 106,
+      "line_id": 2,
+      "station_code": "NS19",
+      "connections": [
+        {
+          "cur_station_line": 124,
+          "next_station_line": 125,
+          "line_id": 2,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "125": {
+      "id": 125,
+      "station_id": 107,
+      "line_id": 2,
+      "station_code": "NS20",
+      "connections": [
+        {
+          "cur_station_line": 125,
+          "next_station_line": 131,
+          "line_id": 2,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "126": {
+      "id": 126,
+      "station_id": 108,
+      "line_id": 2,
+      "station_code": "NS23",
+      "connections": [
+        {
+          "cur_station_line": 126,
+          "next_station_line": 139,
+          "line_id": 2,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "127": {
+      "id": 127,
+      "station_id": 109,
+      "line_id": 2,
+      "station_code": "NS28",
+      "connections": [],
+      "joins": []
+    },
+    "128": {
+      "id": 128,
+      "station_id": 110,
+      "line_id": 2,
+      "station_code": "NS4",
+      "connections": [
+        {
+          "cur_station_line": 128,
+          "next_station_line": 113,
+          "line_id": 2,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "129": {
+      "id": 129,
+      "station_id": 111,
+      "line_id": 2,
+      "station_code": "NS17",
+      "connections": [
+        {
+          "cur_station_line": 129,
+          "next_station_line": 123,
+          "line_id": 2,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 130,
+          "position": "left",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    },
+    "130": {
+      "id": 130,
+      "station_id": 111,
+      "line_id": 5,
+      "station_code": "CC15",
+      "connections": [
+        {
+          "cur_station_line": 130,
+          "next_station_line": 11,
+          "line_id": 5,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 129,
+          "position": "right",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    },
+    "131": {
+      "id": 131,
+      "station_id": 112,
+      "line_id": 2,
+      "station_code": "NS21",
+      "connections": [
+        {
+          "cur_station_line": 131,
+          "next_station_line": 145,
+          "line_id": 2,
+          "connection_style": "solid"
+        },
+        {
+          "cur_station_line": 131,
+          "next_station_line": 132,
+          "line_id": 2,
+          "connection_style": "special"
+        }
+      ],
+      "joins": []
+    },
+    "132": {
+      "id": 132,
+      "station_id": 112,
+      "line_id": 4,
+      "station_code": "DT11",
+      "connections": [
+        {
+          "cur_station_line": 132,
+          "next_station_line": 105,
+          "line_id": 4,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "133": {
+      "id": 133,
+      "station_id": 113,
+      "line_id": 2,
+      "station_code": "NS1",
+      "connections": [
+        {
+          "cur_station_line": 133,
+          "next_station_line": 111,
+          "line_id": 2,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "134": {
+      "id": 134,
+      "station_id": 113,
+      "line_id": 3,
+      "station_code": "EW24",
+      "connections": [
+        {
+          "cur_station_line": 134,
+          "next_station_line": 74,
+          "line_id": 3,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 117,
+          "position": "right",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    },
+    "135": {
+      "id": 135,
+      "station_id": 114,
+      "line_id": 2,
+      "station_code": "NS25",
+      "connections": [
+        {
+          "cur_station_line": 135,
+          "next_station_line": 137,
+          "line_id": 2,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 136,
+          "position": "left",
+          "offset": 1,
+          "separate": true
+        }
+      ]
+    },
+    "136": {
+      "id": 136,
+      "station_id": 114,
+      "line_id": 3,
+      "station_code": "EW13",
+      "connections": [
+        {
+          "cur_station_line": 136,
+          "next_station_line": 138,
+          "line_id": 3,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 135,
+          "position": "right",
+          "offset": 1,
+          "separate": true
+        }
+      ]
+    },
+    "137": {
+      "id": 137,
+      "station_id": 115,
+      "line_id": 2,
+      "station_code": "NS26",
+      "connections": [
+        {
+          "cur_station_line": 137,
+          "next_station_line": 147,
+          "line_id": 2,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 138,
+          "position": "left",
+          "offset": 1,
+          "separate": true
+        }
+      ]
+    },
+    "138": {
+      "id": 138,
+      "station_id": 115,
+      "line_id": 3,
+      "station_code": "EW14",
+      "connections": [
+        {
+          "cur_station_line": 138,
+          "next_station_line": 67,
+          "line_id": 3,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 137,
+          "position": "right",
+          "offset": 1,
+          "separate": true
+        }
+      ]
+    },
+    "139": {
+      "id": 139,
+      "station_id": 116,
+      "line_id": 2,
+      "station_code": "NS24",
+      "connections": [
+        {
+          "cur_station_line": 139,
+          "next_station_line": 135,
+          "line_id": 2,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 141,
+          "position": "left",
+          "offset": 1,
+          "separate": true
+        }
+      ]
+    },
+    "140": {
+      "id": 140,
+      "station_id": 116,
+      "line_id": 5,
+      "station_code": "CC1",
+      "connections": [
+        {
+          "cur_station_line": 140,
+          "next_station_line": 2,
+          "line_id": 5,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 141,
+          "position": "right",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    },
+    "141": {
+      "id": 141,
+      "station_id": 116,
+      "line_id": 6,
+      "station_code": "NE6",
+      "connections": [
+        {
+          "cur_station_line": 141,
+          "next_station_line": 106,
+          "line_id": 6,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 140,
+          "position": "middle",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    },
+    "142": {
+      "id": 142,
+      "station_id": 117,
+      "line_id": 1,
+      "station_code": "TE2",
+      "connections": [
+        {
+          "cur_station_line": 142,
+          "next_station_line": 150,
+          "line_id": 1,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 116,
+          "position": "right",
+          "offset": 0,
+          "separate": false
+        },
+        {
+          "join": 143,
+          "position": "right",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    },
+    "143": {
+      "id": 143,
+      "station_id": 117,
+      "line_id": 2,
+      "station_code": "NS9",
+      "connections": [
+        {
+          "cur_station_line": 143,
+          "next_station_line": 116,
+          "line_id": 2,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 142,
+          "position": "left",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    },
+    "144": {
+      "id": 144,
+      "station_id": 118,
+      "line_id": 1,
+      "station_code": "TE14",
+      "connections": [
+        {
+          "cur_station_line": 144,
+          "next_station_line": 158,
+          "line_id": 1,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "145": {
+      "id": 145,
+      "station_id": 118,
+      "line_id": 2,
+      "station_code": "NS22",
+      "connections": [
+        {
+          "cur_station_line": 145,
+          "next_station_line": 126,
+          "line_id": 2,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "146": {
+      "id": 146,
+      "station_id": 119,
+      "line_id": 1,
+      "station_code": "TE20",
+      "connections": [
+        {
+          "cur_station_line": 146,
+          "next_station_line": 162,
+          "line_id": 1,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 177,
+          "position": "middle",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    },
+    "147": {
+      "id": 147,
+      "station_id": 119,
+      "line_id": 2,
+      "station_code": "NS27",
+      "connections": [
+        {
+          "cur_station_line": 147,
+          "next_station_line": 127,
+          "line_id": 2,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 146,
+          "position": "left",
+          "offset": 1,
+          "separate": true
+        }
+      ]
+    },
+    "148": {
+      "id": 148,
+      "station_id": 120,
+      "line_id": 8,
+      "station_code": "STE2",
+      "connections": [],
+      "joins": []
+    },
+    "149": {
+      "id": 149,
+      "station_id": 121,
+      "line_id": 1,
+      "station_code": "TE1",
+      "connections": [
+        {
+          "cur_station_line": 149,
+          "next_station_line": 142,
+          "line_id": 1,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "150": {
+      "id": 150,
+      "station_id": 122,
+      "line_id": 1,
+      "station_code": "TE3",
+      "connections": [
+        {
+          "cur_station_line": 150,
+          "next_station_line": 151,
+          "line_id": 1,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "151": {
+      "id": 151,
+      "station_id": 123,
+      "line_id": 1,
+      "station_code": "TE4",
+      "connections": [
+        {
+          "cur_station_line": 151,
+          "next_station_line": 152,
+          "line_id": 1,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "152": {
+      "id": 152,
+      "station_id": 124,
+      "line_id": 1,
+      "station_code": "TE5",
+      "connections": [
+        {
+          "cur_station_line": 152,
+          "next_station_line": 153,
+          "line_id": 1,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "153": {
+      "id": 153,
+      "station_id": 125,
+      "line_id": 1,
+      "station_code": "TE6",
+      "connections": [
+        {
+          "cur_station_line": 153,
+          "next_station_line": 154,
+          "line_id": 1,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "154": {
+      "id": 154,
+      "station_id": 126,
+      "line_id": 1,
+      "station_code": "TE7",
+      "connections": [
+        {
+          "cur_station_line": 154,
+          "next_station_line": 155,
+          "line_id": 1,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "155": {
+      "id": 155,
+      "station_id": 127,
+      "line_id": 1,
+      "station_code": "TE8",
+      "connections": [
+        {
+          "cur_station_line": 155,
+          "next_station_line": 173,
+          "line_id": 1,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "156": {
+      "id": 156,
+      "station_id": 129,
+      "line_id": 1,
+      "station_code": "TE12",
+      "connections": [
+        {
+          "cur_station_line": 156,
+          "next_station_line": 157,
+          "line_id": 1,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "157": {
+      "id": 157,
+      "station_id": 130,
+      "line_id": 1,
+      "station_code": "TE13",
+      "connections": [
+        {
+          "cur_station_line": 157,
+          "next_station_line": 144,
+          "line_id": 1,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "158": {
+      "id": 158,
+      "station_id": 131,
+      "line_id": 1,
+      "station_code": "TE15",
+      "connections": [
+        {
+          "cur_station_line": 158,
+          "next_station_line": 159,
+          "line_id": 1,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "159": {
+      "id": 159,
+      "station_id": 132,
+      "line_id": 1,
+      "station_code": "TE16",
+      "connections": [
+        {
+          "cur_station_line": 159,
+          "next_station_line": 107,
+          "line_id": 1,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "160": {
+      "id": 160,
+      "station_id": 133,
+      "line_id": 1,
+      "station_code": "TE18",
+      "connections": [
+        {
+          "cur_station_line": 160,
+          "next_station_line": 161,
+          "line_id": 1,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "161": {
+      "id": 161,
+      "station_id": 134,
+      "line_id": 1,
+      "station_code": "TE19",
+      "connections": [
+        {
+          "cur_station_line": 161,
+          "next_station_line": 146,
+          "line_id": 1,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "162": {
+      "id": 162,
+      "station_id": 135,
+      "line_id": 1,
+      "station_code": "TE22",
+      "connections": [
+        {
+          "cur_station_line": 162,
+          "next_station_line": 163,
+          "line_id": 1,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "163": {
+      "id": 163,
+      "station_id": 136,
+      "line_id": 1,
+      "station_code": "TE23",
+      "connections": [
+        {
+          "cur_station_line": 163,
+          "next_station_line": 164,
+          "line_id": 1,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "164": {
+      "id": 164,
+      "station_id": 137,
+      "line_id": 1,
+      "station_code": "TE24",
+      "connections": [
+        {
+          "cur_station_line": 164,
+          "next_station_line": 165,
+          "line_id": 1,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "165": {
+      "id": 165,
+      "station_id": 138,
+      "line_id": 1,
+      "station_code": "TE25",
+      "connections": [
+        {
+          "cur_station_line": 165,
+          "next_station_line": 166,
+          "line_id": 1,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "166": {
+      "id": 166,
+      "station_id": 139,
+      "line_id": 1,
+      "station_code": "TE26",
+      "connections": [
+        {
+          "cur_station_line": 166,
+          "next_station_line": 167,
+          "line_id": 1,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "167": {
+      "id": 167,
+      "station_id": 140,
+      "line_id": 1,
+      "station_code": "TE27",
+      "connections": [
+        {
+          "cur_station_line": 167,
+          "next_station_line": 168,
+          "line_id": 1,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "168": {
+      "id": 168,
+      "station_id": 141,
+      "line_id": 1,
+      "station_code": "TE28",
+      "connections": [
+        {
+          "cur_station_line": 168,
+          "next_station_line": 169,
+          "line_id": 1,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "169": {
+      "id": 169,
+      "station_id": 142,
+      "line_id": 1,
+      "station_code": "TE29",
+      "connections": [
+        {
+          "cur_station_line": 169,
+          "next_station_line": 170,
+          "line_id": 1,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "170": {
+      "id": 170,
+      "station_id": 143,
+      "line_id": 1,
+      "station_code": "TE30",
+      "connections": [
+        {
+          "cur_station_line": 170,
+          "next_station_line": 171,
+          "line_id": 1,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "171": {
+      "id": 171,
+      "station_id": 144,
+      "line_id": 1,
+      "station_code": "TE31",
+      "connections": [],
+      "joins": [
+        {
+          "join": 172,
+          "position": "left",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    },
+    "172": {
+      "id": 172,
+      "station_id": 144,
+      "line_id": 4,
+      "station_code": "DT37",
+      "connections": [],
+      "joins": [
+        {
+          "join": 171,
+          "position": "right",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    },
+    "173": {
+      "id": 173,
+      "station_id": 145,
+      "line_id": 1,
+      "station_code": "TE9",
+      "connections": [
+        {
+          "cur_station_line": 173,
+          "next_station_line": 57,
+          "line_id": 1,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 174,
+          "position": "right",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    },
+    "174": {
+      "id": 174,
+      "station_id": 145,
+      "line_id": 5,
+      "station_code": "CC17",
+      "connections": [
+        {
+          "cur_station_line": 174,
+          "next_station_line": 25,
+          "line_id": 5,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 173,
+          "position": "left",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    },
+    "175": {
+      "id": 175,
+      "station_id": 146,
+      "line_id": 4,
+      "station_code": "DT36",
+      "connections": [
+        {
+          "cur_station_line": 175,
+          "next_station_line": 172,
+          "line_id": 4,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "176": {
+      "id": 176,
+      "station_id": 147,
+      "line_id": 4,
+      "station_code": "DT4",
+      "connections": [
+        {
+          "cur_station_line": 176,
+          "next_station_line": 35,
+          "line_id": 4,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": []
+    },
+    "177": {
+      "id": 177,
+      "station_id": 119,
+      "line_id": 5,
+      "station_code": "CE2",
+      "connections": [
+        {
+          "cur_station_line": 177,
+          "next_station_line": 31,
+          "line_id": 5,
+          "connection_style": "solid"
+        }
+      ],
+      "joins": [
+        {
+          "join": 146,
+          "position": "right",
+          "offset": 0,
+          "separate": false
+        }
+      ]
+    }
+  }
+}
