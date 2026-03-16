@@ -1,0 +1,144 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "StationsData",
+  "description": "A schema to map Stations and Lines",
+  "type": "object",
+  "properties": {
+
+    "lines": {
+      "type": "object",
+      "patternProperties": {
+        "^[0-9]+$": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "code": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "colour": {
+              "type": "string"
+            },
+            "style": {
+              "type": "string"
+            }
+          },
+          "required": ["id", "code", "name"],
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+
+    "stations": {
+      "type": "object",
+      "patternProperties": {
+        "^[0-9]+$": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "station_name": {
+              "type": "string"
+            },
+            "x": {
+              "type": "number"
+            },
+            "y": {
+              "type": "number"
+            },
+            "lon": {
+              "type": "number"
+            },
+            "lat": {
+              "type": "number"
+            },
+            "name_direction": {
+              "type": "array",
+              "items": {
+                "enum": ["left", "right", "top", "bottom"]
+              }
+            },
+            "name_wrap": {
+              "type": "boolean"
+            }
+          },
+          "required": ["id", "station_name"],
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+
+    "station_lines": {
+      "type": "object",
+      "patternProperties": {
+        "^[0-9]+$": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "station_id": {
+              "type": "integer"
+            },
+            "line_id": {
+              "type": "integer"
+            },
+            "station_code": {
+              "type": "string"
+            },
+            "join": {
+              "type": "object",
+              "properties": {
+                "position": {
+                  "enum": ["left", "middle", "right"]
+                },
+                "offset": {
+                  "type": "number"
+                },
+                "separate": {
+                  "type": "boolean"
+                },
+                "is_triplet": {
+                  "type": "boolean"
+                }
+              },
+              "additionalProperties": false
+            },
+            "connections": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "next_station_line_id": {
+                    "type": "integer"
+                  },
+                  "line_id": {
+                    "type": "integer"
+                  },
+                  "connection_style": {
+                    "enum": ["solid", "dotted", "double", "dashdot", "special"]
+                  }
+                },
+                "required": ["next_station_line_id", "line_id"],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": ["id", "station_id", "line_id"],
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+
+  },
+  "required": ["lines", "stations", "station_lines"],
+  "additionalProperties": false
+}
