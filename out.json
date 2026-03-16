@@ -73,12 +73,12 @@
     "2": {
       "id": 2,
       "station_name": "Bras Basah",
-      "x": 0.61586143909352,
+      "x": 0.6,
       "y": 0.722700823416926,
       "lon": 103.8504742755075,
       "lat": 1.296046213077239,
       "name_direction": [
-        "left"
+        "right"
       ],
       "name_wrap": true
     },
@@ -90,7 +90,7 @@
       "lon": 103.8555678410694,
       "lat": 1.293128813660232,
       "name_direction": [
-        "right"
+        "bottom"
       ],
       "name_wrap": false
     },
@@ -314,12 +314,12 @@
       "id": 22,
       "station_name": "Botanic Gardens",
       "x": 0.349776262429801,
-      "y": 0.475955703523492,
+      "y": 0.476912079957188,
       "lon": 103.8159141457915,
       "lat": 1.32268461233639,
       "name_direction": [
-        "top",
-        "left"
+        "bottom",
+        "right"
       ],
       "name_wrap": true
     },
@@ -339,7 +339,7 @@
       "id": 24,
       "station_name": "Buona Vista",
       "x": 0.302169968841403,
-      "y": 0.637583320818028,
+      "y": 0.638539697251724,
       "lon": 103.7904491753026,
       "lat": 1.307309450770241,
       "name_direction": [
@@ -363,7 +363,7 @@
       "id": 26,
       "station_name": "Changi Airport",
       "x": 1.1055261731456,
-      "y": 0.51038525513653,
+      "y": 0.511341631570225,
       "lon": 103.9892766424138,
       "lat": 1.356341421004803,
       "name_direction": [
@@ -386,7 +386,7 @@
     "28": {
       "id": 28,
       "station_name": "Hillview",
-      "x": 0.248612888554457,
+      "x": 0.249463000939964,
       "y": 0.356408649311558,
       "lon": 103.7676882901031,
       "lat": 1.362474237945068,
@@ -410,7 +410,7 @@
     "30": {
       "id": 30,
       "station_name": "King Albert Park",
-      "x": 0.250313113325471,
+      "x": 0.249463000939964,
       "y": 0.423354999670241,
       "lon": 103.7845615847806,
       "lat": 1.33597604551556,
@@ -475,7 +475,7 @@
       "lon": 103.8488416560614,
       "lat": 1.282250664264074,
       "name_direction": [
-        "left"
+        "top"
       ],
       "name_wrap": true
     },
@@ -489,7 +489,7 @@
       "name_direction": [
         "left"
       ],
-      "name_wrap": false
+      "name_wrap": true
     },
     "37": {
       "id": 37,
@@ -644,7 +644,6 @@
       "lon": 103.9621610218642,
       "lat": 1.335950971715691,
       "name_direction": [
-        "top",
         "left"
       ],
       "name_wrap": false
@@ -653,11 +652,10 @@
       "id": 50,
       "station_name": "Stevens",
       "x": 0.425436264739932,
-      "y": 0.474999327089797,
+      "y": 0.476912079957188,
       "lon": 103.8263225771446,
       "lat": 1.320937743414412,
       "name_direction": [
-        "bottom",
         "right"
       ],
       "name_wrap": false
@@ -677,7 +675,7 @@
     "52": {
       "id": 52,
       "station_name": "Simei",
-      "x": 1.00351268688475,
+      "x": 1.00521291165576,
       "y": 0.438657022609369,
       "lon": 103.953818676297,
       "lat": 1.342661794533708,
@@ -694,7 +692,7 @@
       "lon": 103.9294042796889,
       "lat": 1.32407464586546,
       "name_direction": [
-        "bottom"
+        "top"
       ],
       "name_wrap": false
     },
@@ -761,8 +759,8 @@
     "59": {
       "id": 59,
       "station_name": "Tanjong Pagar",
-      "x": 0.501096267050063,
-      "y": 0.845117006929947,
+      "x": 0.511096267,
+      "y": 0.855117007,
       "lon": 103.8469275802349,
       "lat": 1.27737948810714,
       "name_direction": [
@@ -834,7 +832,7 @@
       "id": 65,
       "station_name": "Clementi",
       "x": 0.219709067447215,
-      "y": 0.639496073685419,
+      "y": 0.638539697251724,
       "lon": 103.7655701161836,
       "lat": 1.314078414345001,
       "name_direction": [
@@ -905,7 +903,7 @@
     "71": {
       "id": 71,
       "station_name": "Gul Circle",
-      "x": 0.0352346797921769,
+      "x": 0.0343845674066698,
       "y": 0.475955703523492,
       "lon": 103.6604441438593,
       "lat": 1.31903226656851,
@@ -954,21 +952,21 @@
       "id": 75,
       "station_name": "Tanah Merah",
       "x": 0.989060776331134,
-      "y": 0.46161005701806,
+      "y": 0.462566433451756,
       "lon": 103.9457230415822,
       "lat": 1.327061275814356,
       "name_direction": [
         "bottom"
       ],
-      "name_wrap": false
+      "name_wrap": true
     },
     "76": {
       "id": 76,
       "station_name": "Tampines",
       "x": 1.00521291165576,
       "y": 0.393707330225681,
-      "lon": 103.9426536818783,
-      "lat": 1.354193927606422,
+      "lon": 103.9439,
+      "lat": 1.355,
       "name_direction": [
         "right"
       ],
@@ -1001,7 +999,7 @@
     "79": {
       "id": 79,
       "station_name": "Farrer Park",
-      "x": 0.570805482661644,
+      "x": 0.571655595047152,
       "y": 0.554378571086522,
       "lon": 103.8547637677557,
       "lat": 1.313543965975699,
@@ -1013,7 +1011,7 @@
     "80": {
       "id": 80,
       "station_name": "Boon Keng",
-      "x": 0.569955370276137,
+      "x": 0.571655595047152,
       "y": 0.513254384437616,
       "lon": 103.8607068332875,
       "lat": 1.317914816472307,
@@ -1114,7 +1112,8 @@
       "lon": 103.8225316516256,
       "lat": 1.265259883734691,
       "name_direction": [
-        "bottom"
+        "bottom",
+        "left"
       ],
       "name_wrap": false
     },
@@ -1126,7 +1125,7 @@
       "lon": 103.8444585417297,
       "lat": 1.284736083637029,
       "name_direction": [
-        "right"
+        "left"
       ],
       "name_wrap": false
     },
@@ -1169,7 +1168,7 @@
     "93": {
       "id": 93,
       "station_name": "Bukit Batok",
-      "x": 0.164451762389254,
+      "x": 0.163601650003747,
       "y": 0.554378571086522,
       "lon": 103.7497665649307,
       "lat": 1.349520060732741,
@@ -1193,7 +1192,7 @@
     "95": {
       "id": 95,
       "station_name": "Yew Tee",
-      "x": 0.164451762389254,
+      "x": 0.163601650003747,
       "y": 0.34110662637243,
       "lon": 103.7473298800346,
       "lat": 1.398067768060026,
@@ -1301,7 +1300,7 @@
     "104": {
       "id": 104,
       "station_name": "Ang Mo Kio",
-      "x": 0.532550425313825,
+      "x": 0.533400537699332,
       "y": 0.310502580494175,
       "lon": 103.8498245724797,
       "lat": 1.369882375268169,
@@ -1313,7 +1312,7 @@
     "105": {
       "id": 105,
       "station_name": "Braddell",
-      "x": 0.531700312928318,
+      "x": 0.533400537699332,
       "y": 0.393707330225681,
       "lon": 103.847440830591,
       "lat": 1.340672163943169,
@@ -1325,7 +1324,7 @@
     "106": {
       "id": 106,
       "station_name": "Toa Payoh",
-      "x": 0.531700312928318,
+      "x": 0.533400537699332,
       "y": 0.435787893308282,
       "lon": 103.8477238043139,
       "lat": 1.332376442030206,
@@ -1373,7 +1372,7 @@
     "110": {
       "id": 110,
       "station_name": "Choa Chu Kang",
-      "x": 0.16275153761824,
+      "x": 0.163601650003747,
       "y": 0.415703988200677,
       "lon": 103.7445177987706,
       "lat": 1.385736185403125,
@@ -1385,7 +1384,7 @@
     "111": {
       "id": 111,
       "station_name": "Bishan",
-      "x": 0.530850200542811,
+      "x": 0.533400537699332,
       "y": 0.360234155046339,
       "lon": 103.8502010819649,
       "lat": 1.351053219933295,
@@ -1403,7 +1402,8 @@
       "lon": 103.8382423816355,
       "lat": 1.313617269149807,
       "name_direction": [
-        "bottom"
+        "bottom",
+        "right"
       ],
       "name_wrap": false
     },
@@ -1422,7 +1422,7 @@
     "114": {
       "id": 114,
       "station_name": "City Hall",
-      "x": 0.604809978081928,
+      "x": 0.605660090467435,
       "y": 0.783908915173436,
       "lon": 103.8518023338091,
       "lat": 1.293454825951323,
@@ -1439,7 +1439,6 @@
       "lon": 103.851621715866,
       "lat": 1.285258281201247,
       "name_direction": [
-        "bottom",
         "right"
       ],
       "name_wrap": true
@@ -1452,7 +1451,8 @@
       "lon": 103.8467879717855,
       "lat": 1.298445092048172,
       "name_direction": [
-        "top"
+        "top",
+        "right"
       ],
       "name_wrap": true
     },
@@ -1472,10 +1472,10 @@
     "118": {
       "id": 118,
       "station_name": "Orchard",
-      "x": 0.444138737221088,
+      "x": 0.425436264739932,
       "y": 0.583069864097386,
-      "lon": 103.8306630989529,
-      "lat": 1.302857614748984,
+      "lon": 103.8258,
+      "lat": 1.3026,
       "name_direction": [
         "right"
       ],
@@ -1581,7 +1581,7 @@
     "127": {
       "id": 127,
       "station_name": "Upper Thomson",
-      "x": 0.423736039968918,
+      "x": 0.425436264739932,
       "y": 0.354495896444167,
       "lon": 103.8318330090042,
       "lat": 1.355736574706553,
@@ -1605,7 +1605,7 @@
     "130": {
       "id": 130,
       "station_name": "Orchard Boulevard",
-      "x": 0.424586152354425,
+      "x": 0.425436264739932,
       "y": 0.55055306535174,
       "lon": 103.8306630989529,
       "lat": 1.302857614748984,
@@ -1617,7 +1617,7 @@
     "131": {
       "id": 131,
       "station_name": "Great World",
-      "x": 0.424586152354425,
+      "x": 0.425436264739932,
       "y": 0.624194050746292,
       "lon": 103.833405504371,
       "lat": 1.296552594564735,
@@ -1641,8 +1641,8 @@
     "133": {
       "id": 133,
       "station_name": "Maxwell",
-      "x": 0.513847952832669,
-      "y": 0.807818326015823,
+      "x": 0.515555,
+      "y": 0.823120348954951,
       "lon": 103.8429163055429,
       "lat": 1.280191522380937,
       "name_direction": [
@@ -1778,7 +1778,6 @@
       "lon": 103.9294042796889,
       "lat": 1.32407464586546,
       "name_direction": [
-        "bottom",
         "right"
       ],
       "name_wrap": false
@@ -1803,7 +1802,7 @@
       "lon": 103.9649,
       "lat": 1.3289,
       "name_direction": [
-        "right"
+        "left"
       ],
       "name_wrap": false
     },
@@ -1824,8 +1823,8 @@
       "station_name": "Tampines",
       "x": 1.025,
       "y": 0.409965729598504,
-      "lon": 103.9426536818783,
-      "lat": 1.354193927606422,
+      "lon": 103.9439,
+      "lat": 1.355,
       "name_direction": [],
       "name_wrap": false
     },
@@ -2114,7 +2113,7 @@
       "station_code": "DT15",
       "join": {
         "position": "left",
-        "offset": 0.75,
+        "offset": 0.748,
         "separate": true,
         "is_triplet": false
       },
@@ -2304,7 +2303,7 @@
       "station_code": "DT16",
       "join": {
         "position": "left",
-        "offset": 0.71,
+        "offset": 0.708,
         "separate": true,
         "is_triplet": false
       },
@@ -3110,7 +3109,7 @@
         {
           "next_station_line_id": 86,
           "line_id": 3,
-          "connection_style": "special"
+          "connection_style": "special,4"
         }
       ]
     },
@@ -3465,8 +3464,8 @@
       "station_code": "TE17",
       "join": {
         "position": "right",
-        "offset": 0,
-        "separate": false,
+        "offset": 0.43999,
+        "separate": true,
         "is_triplet": true
       },
       "connections": [
@@ -3531,7 +3530,7 @@
       "join": null,
       "connections": [
         {
-          "next_station_line_id": 128,
+          "next_station_line_id": 112,
           "line_id": 2,
           "connection_style": "solid"
         }
@@ -3543,7 +3542,13 @@
       "line_id": 2,
       "station_code": "NS3",
       "join": null,
-      "connections": []
+      "connections": [
+        {
+          "next_station_line_id": 128,
+          "line_id": 2,
+          "connection_style": "solid"
+        }
+      ]
     },
     "113": {
       "id": 113,
@@ -3816,7 +3821,7 @@
         {
           "next_station_line_id": 132,
           "line_id": 2,
-          "connection_style": "special"
+          "connection_style": "special,4"
         }
       ]
     },
@@ -3839,7 +3844,12 @@
       "station_id": 113,
       "line_id": 2,
       "station_code": "NS1",
-      "join": null,
+      "join": {
+        "position": "left",
+        "offset": 0,
+        "separate": false,
+        "is_triplet": false
+      },
       "connections": [
         {
           "next_station_line_id": 111,
@@ -3853,7 +3863,12 @@
       "station_id": 113,
       "line_id": 3,
       "station_code": "EW24",
-      "join": null,
+      "join": {
+        "position": "right",
+        "offset": 0,
+        "separate": false,
+        "is_triplet": false
+      },
       "connections": [
         {
           "next_station_line_id": 74,
@@ -4040,8 +4055,8 @@
       "station_code": "TE14",
       "join": {
         "position": "left",
-        "offset": 0.45,
-        "separate": true,
+        "offset": 0,
+        "separate": false,
         "is_triplet": false
       },
       "connections": [
@@ -4097,7 +4112,7 @@
       "station_code": "NS27",
       "join": {
         "position": "left",
-        "offset": 0.63,
+        "offset": 0.61,
         "separate": true,
         "is_triplet": true
       },
