@@ -1,0 +1,130 @@
+@startuml Singapore_MRT_Map
+
+skinparam classAttributeIconSize 0
+skinparam classFontSize 12
+
+class StationDataLoader {
+    - data: str
+    - __parsed: dict
+    - __lines: dict<int, Line>
+    - __stations: dict<int, Station>
+    + load_stations(): list<Station>
+    + load_lines(): list<Line>
+    - __load_stations(): void
+    - __load_station_lines(): dict<int, StationLine>
+    - __create_connections(station_lines: dict, connections: dict): list<Connection>
+}
+
+class StationMapPlotter {
+    + stations: list<Station>
+    + lines: list<Line>
+    - __graph: nx.Graph
+    - __station_name_labels: list<Text>
+    - __station_code_labels: list<tuple<Text, bool>>
+    - __station_distance_labels: list<Text>
+    - __pos: dict
+    - __full_x_range: float
+    - {static} SC_MIN_FONT_SIZE: int = 6
+    - {static} SC_MAX_FONT_SIZE: int = 7
+    - {static} SC_JOIN_MIN_FONT_SIZE: int = 5
+    - {static} SC_JOIN_MAX_FONT_SIZE: int = 6
+    - {static} SD_MIN_FONT_SIZE: int = 5
+    - {static} SD_MAX_FONT_SIZE: int = 6
+    + show_map(): void
+    + draw_nodes_and_edges(): void
+    + draw_labels(): void
+    + draw_legend(): void
+    - __generate_pos(): dict
+    - __draw_node(station: Station, station_line: StationLine): void
+    - __draw_edges_for_node(station: Station, station_line: StationLine): void
+    - __draw_station_name(x: float, y: float, name: str, station: Station): void
+    - __draw_station_code(x: float, y: float, code: str, station_line: StationLine): void
+    - __draw_edge_label(station_line: StationLine, connection: Connection, distance: float): void
+    - __get_appropriate_font_size(minSize: float, maxSize: float): float
+    - __get_custom_shape(join: StationLineJoin): Path
+    - __on_zoom(ax: Axes): void
+}
+
+class NetworkCalculator {
+    + stations: list<Station>
+    - __kms: list<float>
+    - __ms: list<float>
+    + get_total_length(): tuple<float, float>
+    + get_average_distance_between_stations(): tuple<float, float>
+}
+
+entity Station {
+    + id: int
+    + station_name: str
+    + x: float
+    + y: float
+    + lon: float
+    + lat: float
+    + name_wrap: bool
+    + name_direction: list<str>
+    + station_lines: list<StationLine>
+    + calculate_distance(station: Station, in_km: bool): float
+}
+
+entity StationLine {
+    + id: int
+    + station_code: str
+    + line: Line
+    + station: Station
+    + join: StationLineJoin
+    + connections: list<Connection>
+}
+
+entity StationLineJoin {
+    + position: str
+    + offset: float
+    + separate: bool
+    + is_triplet: bool
+}
+
+entity Line {
+    + id: int
+    + code: str
+    + name: str
+    + colour: str
+    + style: str
+    - __isDark: bool
+    + colour_is_dark(): bool
+}
+
+entity Connection {
+    + next_station: StationLine
+    + line: Line
+    + connection_style: str
+}
+
+dataclass Coord {
+    + lon: float
+    + lat: float
+    + lat_to_radian(): float
+}
+
+' Relationships
+StationDataLoader ..> Station : creates
+StationDataLoader ..> Line : creates
+StationDataLoader ..> StationLine : creates
+StationDataLoader ..> Connection : creates
+StationDataLoader ..> StationLineJoin : creates
+
+StationMapPlotter "1" o-- "many" Station : visualises
+StationMapPlotter "1" o-- "many" Line : visualises
+
+NetworkCalculator "1" o-- "many" Station : analyses
+
+Station "1" *-- "many" StationLine : has
+Station ..> Coord : uses
+
+StationLine "1" o-- "1" Line : belongs to
+StationLine "1" o-- "1" Station : located at
+StationLine "1" *-- "0..1" StationLineJoin : has
+StationLine "1" *-- "many" Connection : has
+
+Connection "1" o-- "1" StationLine : points to
+Connection "1" o-- "1" Line : via
+
+@enduml

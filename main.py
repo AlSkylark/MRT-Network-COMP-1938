@@ -7,6 +7,7 @@ DISTANCE_VISIBLE = True
 IS_KM = True 
 SHOW_CODES = True
 SHOW_CUSTOM_SHAPE = True
+DEBUGGING = False
 
 
 def run():
@@ -14,28 +15,29 @@ def run():
     #data is a MASSIVE one line of json that serves as my "database" and I placed it at the very bottom
     #just before run() is called
     global data, SHOW_CODES, SHOW_CUSTOM_SHAPE, DISTANCE_VISIBLE, IS_KM
-
-    print("-- TASK 1 --")
-    print("This map is better viewed by running python on the command line and using the matplotlib figure viewer!")
-    print("Zooming too much breaks some \"special\" connections, it's also a little broken, due to time constraints I wasn't able to find a better solution to that problem!")
-    print("I've tried to recreate the official Singapore MRT Railway System Map "
-    "(found here: https://www.lta.gov.sg/content/ltagov/en/getting_around/public_transport/rail_network.html) as much as possible with the allowed imports in this exercise.")
-    
-    print("Would you like to see this version of the map? Or a simplified version that aligns more with the task's requirements?")
-    print("(y=elaborate version n=simplified version; default is elaborate version)")
-    user_input = input()
-    if user_input.startswith("n") or user_input.startswith("N"):
-        SHOW_CODES = False
-        SHOW_CUSTOM_SHAPE = False
-    print("Would you like to see the distances between stations? (y/n; default is yes)")
-    user_input = input()
-    if user_input.startswith("n") or user_input.startswith("N"):
-        DISTANCE_VISIBLE = False
-    else:
-        print("Would you like to see them in miles? (y=miles, n=kilometers; default is kilometers)")
+    if not DEBUGGING:
+        print("-- TASK 1 --")
+        print("This map is better viewed by running python on the command line and using the matplotlib's figure viewer! However, Jupyter Notebooks is also supported.")
+        print("This map was also made with a 1440p monitor but is assuming a 1080p monitor will be used to evaluate it.")
+        print("Zooming too much breaks some \"special\" connections, it's also a little broken owed to the font-adjusting code (__on_zoom), due to time constraints I wasn't able to find a better solution to that problem!")
+        print("I've tried to recreate the official Singapore MRT Railway System Map "
+        "(found here: https://www.lta.gov.sg/content/ltagov/en/getting_around/public_transport/rail_network.html) as much as possible with the allowed imports in this exercise.")
+        
+        print("Would you like to see this version of the map? Or a simplified version that aligns more with the task's requirements?")
+        print("(y=elaborate version n=simplified version; default is elaborate version)")
         user_input = input()
-        if user_input.startswith("y") or user_input.startswith("Y"):
-            IS_KM = False
+        if user_input.startswith("n") or user_input.startswith("N"):
+            SHOW_CODES = False
+            SHOW_CUSTOM_SHAPE = False
+        print("Would you like to see the distances between stations? (y/n; default is yes)")
+        user_input = input()
+        if user_input.startswith("n") or user_input.startswith("N"):
+            DISTANCE_VISIBLE = False
+        else:
+            print("Would you like to see them in miles? (y=miles, n=kilometers; default is kilometers)")
+            user_input = input()
+            if user_input.startswith("y") or user_input.startswith("Y"):
+                IS_KM = False
     
     
     data_loader = StationDataLoader(data)
@@ -137,8 +139,8 @@ class StationMapPlotter:
     SC_MAX_FONT_SIZE = 7
     SC_JOIN_MIN_FONT_SIZE = 5
     SC_JOIN_MAX_FONT_SIZE = 6
-    SD_MIN_FONT_SIZE = 5
-    SD_MAX_FONT_SIZE = 6
+    SD_MIN_FONT_SIZE = 4
+    SD_MAX_FONT_SIZE = 5
     
     def __init__(self, stations: list["Station"], lines:list["Line"]):
         self.stations = stations
@@ -162,6 +164,7 @@ class StationMapPlotter:
 
         #maximised window, I tried to accomodate for a couple of matplotlib backends
         manager = plt.get_current_fig_manager()
+        manager.set_window_title("Singapore MRT Map")
         try:
             manager.window.state('zoomed') #TkAgg (Windows/Mac)
         except AttributeError:
@@ -305,7 +308,6 @@ class StationMapPlotter:
         name = plt.text(x, y, 
                         clean, 
                         fontsize=font_size, 
-                        #bbox=dict(boxstyle='round, pad=0.2', facecolor='white', edgecolor='none', alpha=1),
                         ha="center", va="center", 
                         clip_on=True)
         if len(station.name_direction) == 0:
@@ -332,19 +334,55 @@ class StationMapPlotter:
         #invididual adjustments for neatness
         if "Tanah Merah" in station_name:
             name.set_x(x - .5)
+            name.set_y(y - .3)
+        if "Expo" in station_name:
+            name.set_x(x - .5)
+        if "Sungei Bedok" in station_name:
+            name.set_x(x + .5)
+        if "Paya Lebar" in station_name:
+            name.set_x(x + .5)
+        if "MacPherson" in station_name:
+            name.set_x(x - .5)
+        if "Serangoon" in station_name:
+            name.set_x(x + .5)
+        if "Lorong Chuan" in station_name:
+            name.set_x(x + .5)
+        if "Caldecott" in station_name:
+            name.set_x(x - .5)
+        if "Stevens" in station_name:
+            name.set_x(x + .6)
         if "Dhoby" in station_name:
-            name.set_x(x + .4)
-            name.set_y(y - .7)
+            name.set_x(x + 1)
+            name.set_y(y - .8)
         if "Clarke Quay" in station_name:
             name.set_x(x - .5)
-            name.set_y(y - 1)
+            name.set_y(y - 1.4)
         if "Telok Ayer" in station_name:
-            name.set_x(x + .5)
+            name.set_x(x + .9)
+            name.set_y(y + .2)
         if "Marina Bay" in station_name:
             name.set_x(x + 1.5)
             name.set_y(y - .2)
         if "Newton" in station_name:
-            name.set_x(x - 1.2)
+            name.set_x(x - 1.4)
+            name.set_y(y - .2)
+        if "Little India" in station_name:
+            name.set_x(x + .3)
+        if "Orchard" in station_name:
+            name.set_x(x + .3)
+        if "Buona Vista" in station_name:
+            name.set_x(x + .3)
+        if "Bugis" in station_name:
+            name.set_x(x + .3)
+        if "Promenade" in station_name:
+            name.set_x(x + .3)
+        if "Bayfront" in station_name:
+            name.set_x(x + .3)
+            name.set_y(y + .3)
+        if "City Hall" in station_name:
+            name.set_x(x + .3)
+        if "Raffles Place" in station_name:
+            name.set_x(x + .3)
         if "Downtown" in station_name:
             name.set_x(x + 1)
             name.set_y(y + .5)
@@ -355,10 +393,12 @@ class StationMapPlotter:
             name.set_x(x - .5)
             name.set_y(y - .5)
         if "Outram" in station_name:
-            name.set_x(x - .7)
+            name.set_x(x - 1)
         if "Bencoolen" in station_name:
             name.set_x(x + .5)
             name.set_y(y - .3)
+        if "Chinatown" in station_name:
+            name.set_y(y + .7)
 
         self.__station_name_labels.append(name)
 
@@ -380,14 +420,14 @@ class StationMapPlotter:
                 if code_length > 3:
                     offset = 0.05
                 if join.is_triplet:
-                    offset = 0.6
+                    offset = 0.8
                 code.set_x(x + offset)
             elif position == "right":
-                offset = 0.07
+                offset = 0.08
                 if code_length > 3:
-                    offset = 0.02
+                    offset = 0.1
                 if join.is_triplet:
-                    offset = 0.55
+                    offset = 0.75
                 code.set_x(x - offset)
             else:
                 code.set_x(x)
